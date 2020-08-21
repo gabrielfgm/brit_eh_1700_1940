@@ -1,0 +1,495 @@
+---
+title: "Week 6: Causes of the Industrial Revolution" 
+author: | 
+    | Dr. Gabriel Geisler Mesevage 
+    | gabriel.mesevage@kcl.ac.uk
+    | Office Hours: Wed. 10-11am & Thurs. 3-4pm
+date: "5 November 2019"
+output: 
+  xaringan::moon_reader:
+        lib_dir: libs
+        css: xaringan-themer.css
+        beforeInit: "macros.js"
+---
+
+<style type="text/css">
+.white { color: white; }
+.large { font-size: 130% }
+.small { font-size: 70% }
+.pull-right40{ 
+  float: right;
+  width: 40%;}
+</style>
+
+## Today's Plan
+
+.pull-left[
+.large[
++ Presentation
+    * Presentation discussion
++ Lecture:
+    * Causes
+        + More on Allen
+        + Mokyr
++ Discussion
+]
+]
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+solarized_light()
+```
+
+---
+
+class: center, inverse, middle
+
+## Presentation
+
+---
+
+class: inverse, center, middle
+
+## Questions for the presenter
+
+---
+
+class: center, middle, inverse
+
+## Lecture
+
+---
+
+## Causation: a Few Thoughts
+
+### Causality in contemporary social science
+
++ Revolves around the idea of a **counterfactual**
+    - Had you not taken an aspirin would you still have a headache?
+
+.pull-left[    
+```{r causality, fig.align='center', out.height="70%"}
+library(DiagrammeR)
+
+mermaid("
+graph LR
+  A(Aspirin) -->|Take| B(Head Pain<br>with Aspirin)
+  A -->|Don't Take| C(Head Pain<br>w/out Aspirin)
+")
+
+```
+]
+
+.pull-right[
++ Difference in headache status is the causal effect
++ **Can never be observed!**
+    - Attributing a cause is about defining the unobserved counterfactual
+    - Causal claims flow from causal stories (models/narratives)
+]
+---
+
+## Allen on Why the Industrial Revolution was British
+
+.pull-left[
+
+```{r allen_graph, fig.align='center', fig.retina=3}
+library(DiagrammeR)
+
+mermaid("
+graph LR
+  A((Commercial<br>Revolution)) --> B((Wages))
+  C((Geography)) --> D((Energy<br>Prices))
+  B((Wages)) --> F((Innovation))
+  D((Energy<br>Prices)) --> F((Innovation))
+  E((Capital<br>Prices)) --> F((Innovation))
+  A --> G((Machine<br>Tools))
+  G --> F
+  B --> H((Education/<br>Training))
+  H --> F
+  A --> I((Urbanization))
+  I --> D
+  D --> E
+style I fill:#93a1a1
+style A fill:#93a1a1
+style B fill:#93a1a1
+style C fill:#93a1a1
+style D fill:#93a1a1
+style E fill:#93a1a1
+style F fill:#93a1a1
+style G fill:#93a1a1
+style H fill:#93a1a1
+")
+
+
+```
+]
+
+.pull-right40[
++ Allen's theory is multi-causal
+    - High relative wages are one important component
++ He mainly wants to explain the adoption of technology in production -- industrial innovation
+
+<br>
+
++ Methodologically he insists on a **comparative** view: why Britain as opposed to elsewhere?
+]
+
+---
+
+## Allen: Core causal mechanism
+
+.pull-left[
+```{r allen_graph_3, fig.align='center', fig.retina=3}
+
+mermaid("
+graph LR
+  A((Commercial<br>Revolution)) --> B((Wages))
+  C((Geography)) --> D((Energy<br>Prices))
+  B((Wages)) --> F((Innovation))
+  D((Energy<br>Prices)) --> F((Innovation))
+  E((Capital<br>Prices)) --> F((Innovation))
+  A --> G((Machine<br>Tools))
+  G --> F
+  B --> H((Education/<br>Training))
+  H --> F
+  A --> I((Urbanization))
+  I --> D
+  D --> E
+style I fill:#93a1a1
+style B fill:#dc322f
+style D fill:#dc322f
+style E fill:#dc322f
+style A fill:#93a1a1
+style C fill:#93a1a1
+style F fill:#93a1a1
+style G fill:#93a1a1
+style H fill:#93a1a1
+")
+
+```
+]
+
+.pull-right40[
++ The core elements of the theory are
+    * The price of labor
+    * The price of capital
+    * The price of energy
+    * In particular the focus is on **relative prices**
+        + High wage costs and low energy/capital costs incentivize switching machines for labor
+        + These are factors that effect the **demand** for innovation by firms
+]
+
+---
+
+## Allen: additional supply factors
+
+.pull-left[
+```{r allen_graph_core, fig.align='center', fig.retina=3}
+
+mermaid("
+graph LR
+  A((Commercial<br>Revolution)) --> B((Wages))
+  C((Geography)) --> D((Energy<br>Prices))
+  B((Wages)) --> F((Innovation))
+  D((Energy<br>Prices)) --> F((Innovation))
+  E((Capital<br>Prices)) --> F((Innovation))
+  A --> G((Machine<br>Tools))
+  G --> F
+  B --> H((Education/<br>Training))
+  H --> F
+  A --> I((Urbanization))
+  I --> D
+  D --> E
+style I fill:#93a1a1
+style B fill:#93a1a1
+style D fill:#93a1a1
+style E fill:#93a1a1
+style A fill:#93a1a1
+style C fill:#93a1a1
+style F fill:#93a1a1
+style G fill:#dc322f
+style H fill:#dc322f
+")
+
+```
+]
+
+.pull-right40[
++ The **supply** of innovation increased by
+    + Availability of education
+        - Product of high wages (as education is costly)
+    + Availability of industries (like watches) linked to scientific thought and machine tools
+    + For Allen these are secondary factors
++ **Warning**: If quality of labor is too good implies the **real** wage may not be high
+]
+
+---
+
+## Allen: causes of the causes, why were wages high?
+
+.pull-left[
+```{r allen_graph_4, fig.align='center', fig.retina=3}
+
+mermaid("
+graph LR
+  A((Commercial<br>Revolution)) --> B((Wages))
+  C((Geography)) --> D((Energy<br>Prices))
+  B((Wages)) --> F((Innovation))
+  D((Energy<br>Prices)) --> F((Innovation))
+  E((Capital<br>Prices)) --> F((Innovation))
+  A --> G((Machine<br>Tools))
+  G --> F
+  B --> H((Education/<br>Training))
+  H --> F
+  A --> I((Urbanization))
+  I --> D
+  D --> E
+style I fill:#93a1a1
+style B fill:#93a1a1
+style D fill:#93a1a1
+style E fill:#93a1a1
+style A fill:#dc322f
+style C fill:#dc322f
+style F fill:#93a1a1
+style G fill:#93a1a1
+style H fill:#93a1a1
+")
+
+```
+]
+
+.pull-right40[
+- Thinks wages grew through external trade/colonialism
+- Thinks low energy prices stem from geography: availability of coal deposits
+    + Also trade drives commercial adoption of coal through urbanization
+    
+    <br>
+    
+- Low energy prices subsidize cost of capital goods (coal used in producing iron, etc.)
+]
+
+---
+
+## Critiques of Allen
+
+### Jane Humphries
+
++ Family structure as depicted is unrealistic
+    - Need more than 3x a man's subsistence wage to support wife/children
+    - Therefore wage averaged over family is not high
+    - Implies probably women/children working $\rightarrow$ low wage labor
+
+--
+
+### Judy Stephenson
+
++ Re-examines key wage series Allen relies on: builder's wages in London
+
+> "...the bills that have been interpreted in the past as reports of wages received by labourers and craftsmen did not, in fact, state the pay of workers, but the rates charged by major building contractors to clients for types of service. ...Once contractors’ margins are taken into account, the actual wage in London construction was significantly below the levels reported in the series that have been used by Allen and others."
+    
+---
+
+.pull-left[
+
+## Mokyr, on the Intellectual Origins of the Industrial Revolution
+
+```{r mokyr_0, fig.align='center', fig.retina=2, out.width="200%"}
+
+mermaid("
+graph LR
+  A((Enlightenment)) --> B((Scientific<br>Culture))
+  C((Cultures of<br>Improvement)) --> D((Industrial<br>Enlightenment))
+  D --> G((Knowledge<br>Production))
+  A --> C
+  B --> D
+  D --> E((Access<br>Costs))
+  E --> F((Innovation))
+  G --> F
+style A fill:#93a1a1
+style B fill:#93a1a1
+style C fill:#93a1a1
+style D fill:#93a1a1
+style E fill:#93a1a1
+style F fill:#93a1a1
+style G fill:#93a1a1
+")
+
+```
+]
+
+.pull-right40[
++ **cultural** account grounded in Enlightenment
+    - Cultures that produce **useful knowledge**
++ Prime movers are small fraction of high human capital individuals
++ Causal forces are broadly European
+    - Britain has some advantages, but Europe would industrialize anyway
+]
+---
+
+.pull-left[
+
+## Mokyr, on the Intellectual Origins of the Industrial Revolution
+
+```{r mokyr_1, fig.align='center', fig.retina=2, out.width="200%"}
+
+mermaid("
+graph LR
+  A((Enlightenment)) --> B((Scientific<br>Culture))
+  C((Cultures of<br>Improvement)) --> D((Industrial<br>Enlightenment))
+  D --> G((Knowledge<br>Production))
+  A --> C
+  B --> D
+  D --> E((Access<br>Costs))
+  E --> F((Innovation))
+  G --> F
+style A fill:#93a1a1
+style B fill:#93a1a1
+style C fill:#93a1a1
+style D fill:#dc322f
+style E fill:#93a1a1
+style F fill:#93a1a1
+style G fill:#93a1a1
+")
+
+```
+]
+
+.pull-right40[
++ Core idea is a particular form of Enlightenment: **Industrial Enlightenment**
+    - More focussed on science/engineering than elsewhere
+    - Devoted to creating *useful knowledge*
+    - Entails strong links between scientists and manufacturers
+]
+
+---
+
+.pull-left[
+
+## Mokyr, on the Intellectual Origins of the Industrial Revolution
+
+```{r mokyr_2, fig.align='center', fig.retina=2, out.width="200%"}
+
+mermaid("
+graph LR
+  A((Enlightenment)) --> B((Scientific<br>Culture))
+  C((Cultures of<br>Improvement)) --> D((Industrial<br>Enlightenment))
+  D --> G((Knowledge<br>Production))
+  A --> C
+  B --> D
+  D --> E((Access<br>Costs))
+  E --> F((Innovation))
+  G --> F
+style A fill:#93a1a1
+style B fill:#93a1a1
+style C fill:#93a1a1
+style D fill:#93a1a1
+style E fill:#dc322f
+style F fill:#93a1a1
+style G fill:#dc322f
+")
+
+```
+]
+
+.pull-right40[
++ *Knowledge production*: both scientific but also descriptive
+    - Effect is more than cumulative as knowledge interacts
++ *Access costs* to information
+    - Learned societies
+    - Books/journals
+    - Encyclopedias
+    - Universities/Meeting places
+]
+
+---
+
+.pull-left[
+
+## Mokyr, on the Intellectual Origins of the Industrial Revolution
+
+```{r mokyr_3, fig.align='center', fig.retina=2, out.width="200%"}
+
+mermaid("
+graph LR
+  A((Enlightenment)) --> B((Scientific<br>Culture))
+  C((Cultures of<br>Improvement)) --> D((Industrial<br>Enlightenment))
+  D --> G((Knowledge<br>Production))
+  A --> C
+  B --> D
+  D --> E((Access<br>Costs))
+  E --> F((Innovation))
+  G --> F
+style A fill:#93a1a1
+style B fill:#dc322f
+style C fill:#dc322f
+style D fill:#93a1a1
+style E fill:#93a1a1
+style F fill:#93a1a1
+style G fill:#93a1a1
+")
+
+```
+]
+
+.pull-right40[
++ *Belief in progress* as attainable in many domains (politics, ethics, natural philosophy) seen as important cultural view
+    - Supports will to experiment in production
++ *Baconian science*:
+    - More empirical & concrete than e.g. Descartes
+    - More closely allied to applied scientific work
+]
+
+---
+
+## Critiques of Mokyr
+
+### O'Brian
+
++ Mokyr inexplicably dismissive of the litany of other causal factors (geography, agriculture, institutions, etc)
++ Does not engage in *reciprocal comparison* -- comparing Britain to comparable units elsewhere in the world to ensure these mechanisms are absent
++ Does not really examine influence of Enlightenment ideas elsewhere
+
+> "I conclude that an enlightened economy... are labels awaiting research and development to mature into operational concepts."
+
+
+---
+
+## Discussion
+
+.pull-left[
+![ealing](ealing_budget.png)
+]
+
+.pull-right[
++ Consider the budget of a gardener (left)
+    - Is this gardener poor?
+    - Is this gardener *comparatively* poor?
+]
+
+---
+
+## Discussion
+
+.center[
+> What, in O'Brien's view, is missing from both Mokyr and Allen's accounts?
+
+]
+
+--
+<br>
+> Does Mokyr's approach convince us that the industrial revolution would not have occurred without the Industrial Enlightenment?
+
+--
+
+<br>
+> Does Humphries depiction of regular hunger and immiseration matter for Allen's argument? Is her criticism convincing?
+
+--
+
+<br>
+> What about Stephenson's revision of wage rates? Does it fatally undermine the argument?

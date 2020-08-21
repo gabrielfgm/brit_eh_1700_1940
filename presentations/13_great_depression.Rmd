@@ -1,0 +1,495 @@
+---
+title: "The Great Depression, 1873-96" 
+author: | 
+    | Dr. Gabriel Geisler Mesevage 
+    | gabriel.mesevage@kcl.ac.uk
+    | Office Hours: Wed. 10-11am & Thurs. 2-3pm
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  xaringan::moon_reader:
+    nature:
+      beforeInit: "macros.js"
+    lib_dir: libs
+    css: xaringan-themer.css
+---
+
+<style type="text/css">
+.white { color: white; }
+.large { font-size: 130% }
+.small { font-size: 70% }
+.pull-right40{ 
+  float: right;
+  width: 40%;}
+.pull-left60{
+  float: left;
+  width: 60%;
+}
+.scale120{
+  float: left;
+  width: 120%;
+}
+.scale80{
+  float: right;
+  width: 80%
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+solarized_light()
+source("~/Dropbox/teaching/lecture_ggplot2_theme.R")
+```
+
+## The perception of decline
+
+
+> "It must be clear to everyone that we are under the shadow of a business depression...", <br> -*Banker's Magazine*, October 1883
+
+<br>
+
+> "Since 1862 the tide of agricultural propsperity had ceased to flow; after 1874 it turned and rapidly ebbed" <br> -Lord Ernley, *English Farming Past and Present*, 1927
+
+<br>
+
+> "There was, in fact, a continuous output of discussions, speeches, books, reports, and pamphlets, which prove, at least, that people thought they were depressed ... 1873 to 1896 was a period when people said there was a great depression." <br> -Beales, "The Great Depression in Industry and Trade", 1934 
+
+???
+
+Might begin with the name: Great Depression
+
++ Now if you tell someone you spent the morning in a lecture on the Great Depression they will almost certainly think you are talking about the 1930s
+
+widespred discussion of decline
+
++ 2 royal commission in 70s and 90s on agriculture
++ 2 on trade and industry
++ 1 on the monetary system
++ Widespread discussion in the Political Economy Club and House of Commons
+
+---
+
+## Giffen and the fall in prices
+
+.pull-left[
+![:scale 100%](giffen.jpg)
+]
+
+.pull-right[
+![:scale 100%](giffen_table.png)
+
++ Robert Giffen, "The Fall of Prices and Commodities in Recent Years", *Journal of the Royal Statistical Society*, Vol. 42, 1879.
+]
+
+???
+
+Giffen
+
++ Address given to the Royal Statistical Society in 1879
++ He is chief statistical department Board of Trade
++ Since 1873 **prices of goods declining**!
+
+---
+
+## The fall in British prices
+
+```{r price_plot, fig.align='center', fig.retina=3, out.width="100%", fig.width=6, fig.height=4}
+
+library(tidyverse)
+
+df <- read_csv("uk_cpi_1850-1914.csv", skip = 1)
+
+df %>% 
+  ggplot(aes(Year, `Retail Price Index (2010 = 100)`)) +
+  geom_point() + geom_line() +
+  theme_lecture + 
+  annotate('rect', xmin=1873, xmax = 1896, 
+           ymin = min(df$`Retail Price Index (2010 = 100)`), 
+           ymax = max(df$`Retail Price Index (2010 = 100)`),
+           alpha = .3) + 
+  annotate("text", x = 1902, y = 1.4, label = "The Great\nDepression,\n1873-1896")
+
+
+```
+
+
+???
+
+The drop in prices
+
++ Greg Clark retail price index
++ Clearly confirms what contemporaries noted -- prolonged fall in prices in the period of the Great Depression
++ **Are price declines a depression**? 
+    - Not necessarily! We call this *deflation*
+        * Good for lenders bad for debtors
+        * Depends **what** prices are falling
+
+---
+
+### What might explain the fall in prices?
+
+> "There is an immense **diminution in the production of gold.**"<br> -Goschen, Manchester Chamber of Commerce, 1885
+
++ Less **supply** of gold $\rightarrow$ lower prices
+
+<br>
+
+???
+
+Money is confusing
+
++ simplest way to think about the price level is as a ratio
+    - What is the ratio of money to things?
+    - How many things would people offer to obtain a pound?
+    - How many pounds does it take to get a thing?
+
+--
+
+> "...the recent course of prices... is the result in part of the diminished production **and the increased extroardinary demands upon the supply of gold.**"<br> -Giffen, *Contemporary Review*, 1885.
+
++ Less **demand** for gold $\rightarrow$ lower prices
+
+--
+
+> "The prime cause affecting prices, it seems to us, is plain enough, namely, the **excessive production** in all things, the use of machinery, the fruitfullness of the earth, far outstripping the wants of man combined with his power to purchase..."<br> -*Banker's Magazine*, 1885.
+
++ Increased **productivity** $\rightarrow$ lower prices
+
+---
+
+### Why were prices falling? Supply and demand for money
+
+.pull-left[
+
++ US: Crime of '73
++ **A global phenomenon**
+
+> "There is a greater strain upon gold through the discarding of silver in very important countries..."<br> -Goschen, Manchester Chamber of Commerce, 1885
+
+<br>
+
+![global](global_prices.png)
+#### Source Flandreau et. al. 2008
+]
+
+.pull-right[
+![:scale 100%](crime_73.jpg)
+]
+
+???
+
+Crime of 73
+
++ US used to have a bimetallic standard
+    - Dollars could be redeamed for silver **or gold**
+    - Shift to gold only
++ Contraction in money supply
++ Growing demand for gold
++ This is not purely a British phenomenon!
+    - The plot from Flandreau et al shows **global** prices falling
+
+Transition
+
++ The background is one of monetary explanations for the fall in prices
++ But we need to consider productivity
+    - Producing more with less can make goods cheaper
+    - A paradigmatic case -- and one that was important to Britain, was transport
+
+
+---
+
+### Why were prices falling? Global grain market integration
+
+.center[
+![:scale 70%](harley_freight_rates.png)
+]
+
++ Major productivity gains in **transportation**
++ Both shipping and significant railway building in the US
+
+---
+
+### Why were prices falling? Global grain market integration
+
+![:scale 90%](anglo_us_wheat.png)
+
+???
+
+This graphic merits close study because it tells an interesting story
+about the fall in the price of Wheat -- a staple of the British diet.
+
++ Top line is British price - Chicago wheat price 
++ Bottom line is British price - NY price
+
+---
+
+### The Agricultural Great Depression?
+
+> "...the existence of a great depression in agriculture was, and is, universally accepted, and farmers' sufferings have been wept over by generations of mourners."<br> -Fletcher, "The Great Depression of English Agriculture", p. 417
+
+<br>
+
+???
+
+Fletcher made this point in the course of critiquing it
+
++ We will return to his caveats
++ But general pressure on wheat is real
+
+--
+
+### The Impact of Falling Agricultural Prices
+
+> "Less frequently remarked upon, but equally obvious, are the long-run implications for European income distribution. Such an increase in land endowments would inevitably spell disaster for European landowners. Over-all living standards might increase, but in the long run European rents would decline, with European labor or capital benefitting." <br> -O'Rourke, "European Grain Invasion", p. 775
+
+???
+
+O'Rourke raises the broader question of structural transformation
+
++ This has echoes of contemporary debates about the winners and losers of globalization
++ The fall in agricultural prices **helped consumers**. It made their food cheaper and left them with more money leftover to spend.
++ But it hurt farmers, and generated agricultural employment.
+    - It also hurt landowners and pushed down the rate of return to land
+
+---
+
+```{r uk_factors, fig.align='center', fig.retina=3, out.width="100%", fig.width=6, fig.height=4.5}
+library(tidyverse)
+library(ggthemes)
+
+fp <- data.frame(date = seq(1877, 1912, 5),
+                 real_wage = c(100, 104,
+                               113.9, 118.8,
+                               127.6, 121.6,
+                               128.8, 125.9),
+                 real_land = c(100, 77.3, 76.1, 
+                               76.7, 82.2, 69.8,
+                               68.3, 58.2))
+
+fp <- fp %>%
+  gather("factor", "index", -date) 
+
+fp %>% 
+  ggplot(aes(date, index, color=factor)) +
+  geom_line() + 
+  geom_point()+
+  theme_hc() +
+  scale_color_hc() +
+  guides(color = FALSE) +
+  geom_label(data = fp %>% filter(date==1912),
+             aes(date, index, color=factor, 
+                 label = c("Real Wage", "Real Land Prices"))) +
+  xlim(c(1875, 1916)) +
+  theme(panel.background = element_rect(fill = "#fdf6e3"),
+        plot.background = element_rect(fill = "#fdf6e3"))  +
+  ggtitle("The Impact of Falling Agricultural Prices?", 
+          subtitle = "Index of British Land and Labor Prices")
+
+```
+#### Source: O'Rourke & Williamson, *Globalization and History*
+
+???
+
+The money tenants pay to landlords we call rent
+
++ The effect of tying together Britain and the US was that the rent paid to landowners fell as the profitability of British land declined
++ Likewise, the **real wage**, the wage measured in terms of what it can buy, rose
++ This is a process of **convergence**: 
+    - Britain had a large population working a relatively small amount of land
+    - Compared to the US wages were low and rents were high. 
+    - By trading with the Americas, British wages rose toward American wages, and British rents fell toward American rents
+    - Conversely, American wages fell towards British wages, and American rents rose toward British rents
+    - We call this **Factor Price Convergence**
+
+---
+
+```{r wage_rent_ratios, fig.align='center',fig.retina=3, out.width="100%", fig.width=6, fig.height=4.5}
+library(readxl)
+library(ggrepel)
+
+wr <- read_xlsx("wage_rent_ratios.xlsx")
+
+wr <- wr %>% gather("Country", "Index", - Year) %>% 
+  mutate(Continent = ifelse(Country %in% c("Australia", "US"), 
+                            "New World", "Old World"),
+         Policy = ifelse(Country %in% c("France", "Germany"),
+                                 "Protectionist", "Open"))
+
+wr %>% 
+  ggplot(aes(Year, Index, 
+             group = Country, 
+             color = Continent, linetype = Policy)) +
+  geom_line() + 
+  geom_point()+
+  theme_hc() +
+  scale_color_hc() +
+  guides(color = FALSE) +
+  geom_label_repel(data = wr %>% filter(Year==1912),
+             aes(Year, Index, color=Continent, 
+                 label = Country)) +
+  xlim(c(1875, 1915)) +
+  theme(panel.background = element_rect(fill = "#fdf6e3"),
+        plot.background = element_rect(fill = "#fdf6e3"))  +
+  ggtitle("Evidence of Convergence in Wage-Rental Ratios?", 
+          subtitle = "1877 to 1912") +
+  theme_lecture
+
+```
+#### Source: O'Rourke, "European Grain Invasion"
+
+???
+
+Not just a British story, a European story:
+
++ Globalized trade placed European agriculture in stiff competition
++ In general, European **real wages** rose from the falling food prices
++ And the rents paid to European landowners/farmers fell
+
+---
+
+## Not all farmers
+
+```{r different indices, fig.align='center',fig.retina=3, out.width="100%", fig.width=6, fig.height=3.75}
+
+fpi <- data.frame(Year = rep(seq(1870, 1900, by = 5), 3),
+                  Product = rep(c("Wheat", "Sheep", "Milk"), each = 7),
+                  Index = c(100,86.7,77.1,57.4,53.9,50.7,49.8,
+                            100,109.5,108.5,92.3,91.8,89.4,92.1,
+                            100,112.5,112.5,87.5,84.4,81.3,87.5))
+
+fpi %>% 
+  ggplot(aes(Year, Index, color = Product, group = Product)) + 
+  geom_point(size = 3) +
+  geom_line() +
+  theme_lecture +
+  scale_color_hc()+ 
+  theme(legend.background = element_rect(fill="#fdf6e3"))
+
+```
+#### Source: Turner, "Agriculture, 1860-1914", pp. 141
+
+???
+
+Productivity gains in transport and american farming pushed down prices of **traded** goods
+
++ Things that were harder to trade were more protected, for instance fresh milk
++ In addition, the rise in **real wages** led to Britains buying more meat and drink
++ Plus, grains are an **input** into the cost of producing animals and animal products
+
+> "...the sort of man who had bread and cheese for his dinner 40 years ago now demands a chop." Graham 1899
+
+---
+
+## Other sectors
+
+.pull-left[
+
+### Coal & Steel
+
++ Increased competition, e.g. Germany
++ Declining productivity
+
+### Questions:
+
++ Was this inevitable catch-up?
++ Were there disadvantages to industrializing first?
+]
+
+.pull-right[
+
+### Textiles/Manufactures for Export
+
++ Rising competition from late-Industrializers
++ Growth of '2nd Industrial Revolution'
+    - Chemicals
+    - Electrification
+]
+
+???
+
+Agriculture was not the only affected industry
+
++ Jevons and the Coal Question
+    - Hard to be as profitable as *new* coal seams
+    - British manufactures faced competition from USA/Europe, esp Germany
++ Much handwringing & huge literature on 'decline'
+    - Inevitable new industrializers grow quicker?
+    - Inevitable that Britain could not maintain a quasi-monopoly on manufactures?
+    
+    
+---
+
+## New opportunities!
+
+.pull-left60[
+> "...the soapmakers, sorry for themselves though they often were, never really felt the pinch of the 'Great Depression'. Quite the contrary, in fact, for **the very influences which, by producing low wholesale prices, worked against the capital goods industries, worked in favour of consumer goods** by raising retail customers' purchasing power." <br> -Reader, "The United Kingdom Soapmakers' Association and the English Soap Trade, 1867-1896", pp. 83.
+
++ Low prices of food and wholesale products promps **growth in consumer goods**
+]
+
+.pull-right40[
+.right[
+![:scale 90%](hovis.jpg)
+]]
+
+???
+
+We already saw with pasture that the fall in prices could benefit some industries as well as consumers
+
++ more disposable income
++ the era of consumer goods brands: 
+    - Hovis bread founded in 1886, 
+    - Cadburys chocolate expands to larger factory production in this period
+    - Rowntree confectionary moves to factory as sales quadruple in the 1890s
+    - Rise of newspapers, both as entertainment **and** because of advertiser financing catering to reader consumption
+
+---
+
+### New opportunities!
+
+.pull-left60[
+
+![lewis_store](lewis_manchester.jpg)
+
+.center[
+![:scale 40%](davidlewis.jpg)]
+]
+
+.pull-right40[
+.right[
+![:scale 90%](Cadbury's_Cocoa_advert_with_rower_1885.jpg)]
+]
+
+???
+
+This was a time for the expansion of major retail
+
++ Morrison the warehouse expert dies one of the wealthiest men in Britain as Rubinstein demonstrates
++ David Lewis develops succesful department stores selling mass-produced consumer goods that are **cheap**
++ In short, there is much that is succesful in **consumption**
+
+---
+
+## Was there a Great Depression?
+
+.pull-left[
+> "The 'Great Depression' years were in fact years not only of crisis but of new growth, sometimes actual, sometimes potential."<br> -Wilson, "Economy and Society in Late Victorian Britain", pp. 198.
+]
+
+.pull-right[
+
+> "As regards the 'Great Depression' itself, surely the major outcome of modern research has been to destroy once and for all the idea of the existence of such a period in any unified sense." <br> -Saul, *The Myth of the Great Depression, 1873-1896*, pp. 54.
+]
+
+???
+
+In a conventional sense of the word depression it is difficult to describe the Great Depression as such
+
++ A period of transformation in which the British economy was exposed to increased international competition
++ A period of social disruption, in particular for landowners
++ A period of rising prosperity and new consumer opportunities for wage-earners
++ The late-19th century British experience highlights the way global market integration generates winners and losers

@@ -1,0 +1,366 @@
+---
+title: "Week 4: Government and the Financial Revolution" 
+author: | 
+    | Dr. Gabriel Geisler Mesevage 
+    | gabriel.mesevage@kcl.ac.uk
+    | Office Hours: Wed. 10-11am & Thurs. 3-4pm
+date: "8 October 2019"
+output: 
+  xaringan::moon_reader:
+        lib_dir: libs
+        css: xaringan-themer.css
+        nature:
+          beforeInit: "macros.js"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+solarized_light()
+```
+
+class: center, middle, inverse
+
+# Today's plan
+
+---
+
+## Lecture Outline
+
++ Context
+    + The financial revolution
+    + The growth in government borrowing
+    + The growth of fiscal capacity
+
+--
+
++ Douglass North, Institutions and the Financial Revolution
+    + The 'New Institutional Economics', a brief overview
+    + Douglass North and his legacy in economic history
+    + 'Constitutions and Commitment': the argument
+        + 'Credible commitment'
+        + Revolution and restraint
+        + The evidence from bond yields
++ Some critiques
+        
+--
+
++ Discussion
+    + North and Weingast
+    + Carlos and Neal
+    + Brewer
+
+---
+
+## The financial revolution
+
+.left-column[
+![fin_rev](fin_rev.jpg)
+]
+
+.right-column[
+
++ P.G.M Dickson, *The Financial Revolution in England: A Study in the Development of Public Credit, 1688-1756*, 1967.
++ Influential history of administrative and bureaucratic reform underpinning the development of the market for public debt
++ Two major prongs
+    1. Growth of finance and insurance
+        + Bank of England chartered in 1694
+        + Sun Fire Insurance in 1710, and others
+        + Declining interest rates, growth in trade
+    2. War
+        + Vicious mercantile wars of 18th c.
+        + England at war for 29 of 66 years between 1688 and 1756
+]
+
+---
+
+## Debt and war
+
+.center[
+![:scale 90%](dickson_borrowing_table.png)
+]
+
+---
+
+.left-column[
+![sinews](sinews.jpg)
+]
+
+.right-column[
+
++ The 'Fiscal-Millitary State'
+
+> "In recent years it has been fashionable to downplay the importance of taxes in funding the bellicose expansion of the eighteenth-century English state and to emphasize the importance of a highly sophisticated system of public borrowing. This vogue is largely explained by the brilliant work of P.G.M. Dickson... But in ascribing the evolution of public indebtedness to the weakness of the English tax system, *Dickson underestimates the importance of taxes to the so-called financial revolution.* No matter how sophisticated the mechanism or means, the state’s ability to borrow was contingent upon the belief among its creditors that it had the capacity and determination to meet its payments." (Brewer, 1987, 73, my emph).
+
+]
+
+---
+
+![tax_graph](tax_brewer.png)
+
++ Note the rise of excise and fall of land tax
++ Symptomatic of centralizing power of taxation (land tax preferred by Parliament)
+
+---
+
+## The Fiscal-Military State
+
++ Nexus of effective taxation and borrowing geared toward the pursuit of war
++ Growth in tax *not* mere reflection of economic growth
+    - Between 1670 and 1810 tax receipts grow ~5 $\times$ faster than economy
+    
+> "The eclipse of the land tax was symptomatic of two developments which were of major importance to the subsequent history of the English state. The switch from direct to indirect taxation meant that the bulk of the revenue was no longer collected by a hodge- podge of amateur and local officials but by a centrally appointed body of crown employees. It also signalled the birth of the long-term national debt as more and more indirect taxes were assigned to fund government loans. In this way the preponderance of indirect taxes was inextricably linked to the growth of public credit."
+
+---
+
+.pull-left[
+
+>"Other expedients to finance war which might have been tried (and were, by other powers), such as inflation of the currency or writing off accumulated debts, were by definition self-defeating in anything except the short run." (Dickson, pp. 10-11)
+
+]
+
+.pull-right[
+
+> "The land tax, despite its heavy incidence on the landed classes, was preferred by the House of Commons over other taxes because it was the most limited case of the exercise of executive power... Opting for the land tax, then, was one of several parliamentary strategies designed to reduce the growth of the fiscal-military state."
+
+]
+
+<br>
+
+.center[
+###...Segue to North and Weingast (1989)
+]
+
+---
+
+## Douglass North
+
+.pull-left[
+
+![North](north_headshot.jpg)
+
+]
+
+.pull-right[
+
++ Shared the Econ Nobel in 1993 with Robert Fogel
+    - Important figure in popularizing a particular way of writing economic history
++ Cliometrics
++ New Institutional Economics
++ A very influential paper -- although thesis has been heavily critiqued
+    - 5,302 citations!
+
+]
+
+---
+
+.pull-left[
+### Cliometrics
+
++ Douglass North and Robert Fogel win Nobel for being "pioneers in the branch of economic history that has been called the ‘new economic history,’ or cliometrics."
++ "Cliometric School" (Clio + Econometrics)
+    - Incorporation of theory (from economics) and statistical analysis (econometrics)
+    - First in the US in the 1950's-70's, then spreads to UK
+    
+![railroads](railroads_fogel.jpg)
+
+]
+
+.pull-right[
+### New Institutional Economics
+
++ Ronald Coase and Oliver Williamson
++ *Transaction costs*:
+    - Institutions arise to reduce them
+    - Explain the existence of wide-variety of non-market structures
+    
+> "The costs of defining and enforcing property rights -- transaction costs -- lead to non-price allocation of many goods and services today, because the costs of delineation or enforcement exceed the benefits." (North, "Markets and Other Allocation Systems in History: the Challenge of Karl Polanyi")
+
+]
+
+---
+
+class: center, top
+
+### North's work and influence
+
+![:scale 22%](institutions_institutional_change_north.png) ![:scale 22%](violence_north.jpg) ![:scale 22%](markets_states_bates.jpg)
+
+![:scale 22%](analytic_narratives_frontis.png) ![:scale 22%](institutions_grief.jpg) ![:scale 22%](why_nations_fail_acemoglu.png)
+
+---
+
+## 'Constitutions and Commitment': the problem
+
++ Difficulty of making a promise now when you are not incentivized to keep it later.
++ **Why do sovereigns pay back debts?**
+    - One solution: Reputation
+    - BUT reputation depends on discount rate, difficult in times of war
+
+--
+
+
+.right-column[
+
+***
+
+### Discount Rate
+
++ How much do you prefer a dollar today relative to a dollar next year?
+    - If you wait to get paid you might:
+        + Die, and not get to spend your dollar
+        + Inflation might erode the value of your dollar
+        + You would miss out on investing your dollar
+        + You might really need the dollar right now for coffee, etc.
+
+***
+]
+
+---
+
+## 'Constitutions and Commitment': the argument
+
+
+#### Features
+
++ Glorious revolution creates checks on executive power
++ Check's on power include
+    - Curtailing outside sources of executive revenue
+    - Parliamentary 'supremacy'
+
+--
+
+#### Mechanisms
+
++ Previous removal of monarchs gives Parliament 'credible threat'
++ Combine with funding government
+    - Argues Parliament itself not predatory b/c of countervailing interests
++ Specific to Financial Revolution
+    - earmarking of taxes to debts
+    - BoE with restriction on purchase/lending without Parliamentary consent
+
+--
+
+#### Result
+
++ The Crown can 'credibly commit' today to pay back a loan tomorrow
++ Facilitates the development of national debt
+    - Drives down the interest rate on national debt
+
+
+---
+
+## 'Constitutions and Commitment': the evidence
+
+```{r interest_loans, fig.align='center', out.width="100%", fig.height=4, fig.width=6, fig.retina=3}
+library(tidyverse)
+library(ggthemes)
+library(ggrepel)
+
+irates <- data.frame(Date = c(1693, 1694,
+                              1694, 1697,
+                              1698, 1707,
+                              1721, 1728,
+                              1731, 1739),
+                     Interest = c(14, 14, 8, 6.3, 8, 6.25, 
+                                  5,4,3,3))
+
+irates %>% 
+  ggplot(aes(Date, Interest, label = paste0(Interest, "%"))) +
+  geom_point() + 
+  geom_text_repel() +
+  ggtitle("Interest rates on select loans") +
+  theme_hc() +
+  theme(panel.background = element_rect(fill = "#fdf6e3"),
+        plot.background = element_rect(fill = "#fdf6e3"))
+
+
+```
+
+
+---
+
+## 'Constitutions and Commitment': the consequences
+
+> "The institutions leading to the growth of a stable market for public debt provided a large and positive externality for the parallel development of a market for private debt." (North and Weingast, pp. 825).
+
+.center[
+BoE & security in property $\rightarrow$ growth in banking, bill market, and financial activity
+]
+
+---
+
+## 'Constitutions and Commitment': the critique
+
+### Criticizing the link to the financial revolution
+
++ Growing body of evidence pushing Financial Revolution back in time
+    - e.g. Ann Murphy, *Origins of English Financial Markets*, Sussman (2019 -- a few weeks ago!) on Corporation of London
++ Clark, "Political Foundations" (1996) computes rates of return on other assets (e.g. mortgages) and finds no fall in rates after 1688
+
+--
+
+### Criticizing the link to lowered borrowing costs
+
++ Sussman and Yafeh, "Institutional reforms", (2006)
++ Suggests decline in interest rates was slow to follow, tracked the Netherlands, and was partially explained by Dutch rates
+
+> "The long time lag between the institutional reforms of the late seventeenth century and the emergence of London as the world's main financial center suggests that the link between the two is, at best, a long-run phenomenon; even if institutions do affect interest rates and financial development, the effect tends to be slow." (pp. 910).
+
+---
+
+class: inverse, center, middle
+
+# Discussion
+
+>"...one necessary condition for the creation of modern economies dependent on specialization and division of labor (and hence impersonal exchange) is the ability to engage in secure contracting across time and space. That entails low transaction costs per exchange. The creation of impersonal capital markets is the single most important piece of evidence that such a necessary condition has been fulfilled." Explain and evaluate this claim by North and Weingast
+
+---
+
+class: inverse, center, middle
+
+# Discussion
+
+> Carlos and Neal describe the Netherlands as a 'bank-oriented system' and Britain as a 'market-oriented system': what do they mean by this? What evidence do they point to?
+
+--
+
+> Carlos and Neal recount British and Dutch finance as displaying "...a symbiosis that proved highly beneficial for both financial systems." Is it misleading to speak of a financial revolution in *England*? Is financial history inimical to history narrated in national terms? Is the interpenetration of English and Dutch markets problematic for the story told by North and Weingast?
+
+---
+
+class: inverse, middle, center
+
+# Discussion
+
+>"The creation of what I call ‘the fiscal-military state’ was the most important transformation in English government between the domestic reforms of the Tudors and the major administrative changes in the first half of the nineteenth century." Is 'fiscal-military state' a useful analytical construct? 
+
+--
+
+> "Whatever the situation when it came to the administration of law and order, in the fiscal-military sphere the state gained a hold as never before. This grip did not, however, become the stranglehold of autocracy, which raises, of course, the question of why Britain was able to enjoy the fruits of military prowess without the misfortunes of a *dirigiste* or despotic regime." How do we reconcile Brewer's narrative of the rise of centralized state power with North and Weingast's account of checks on political authority? 
+
+---
+
+class: inverse, middle, center
+
+# Appendix
+
+---
+
+### Bills of Exchange/Acceptances
+
+.center[
+![:scale 80%](mideval_acceptance.png)
+]
+
+---
+
+.center[
+![:scale 80%](modern_acceptance.png)
+]
+
+

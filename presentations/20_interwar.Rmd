@@ -1,0 +1,476 @@
+---
+title: "Britain in the Interwar Period" 
+author: | 
+    | Dr. Gabriel Geisler Mesevage 
+    | gabriel.mesevage@kcl.ac.uk
+    | Office Hours: Wed. 10-11am & Thurs. 2-3pm
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  xaringan::moon_reader:
+    nature:
+      beforeInit: "macros.js"
+    lib_dir: libs
+    css: xaringan-themer.css
+---
+
+<style type="text/css">
+.white { color: white; }
+.green { color: green;}
+.large { font-size: 130% }
+.small { font-size: 70% }
+.pull-right40{ 
+  float: right;
+  width: 40%;}
+.pull-left60{
+  float: left;
+  width: 60%;
+}
+.scale120{
+  float: left;
+  width: 120%;
+}
+.scale80{
+  float: right;
+  width: 80%
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+solarized_light()
+source("~/Dropbox/teaching/lecture_ggplot2_theme.R")
+```
+
+## Today's Plan
+
+.large[
++ Admin:
+  + Essays
+  + Exams
++ Lecture
+  + Britain's Economy in the interwar period
++ Discussion
+  + Going to try discussion via **chat** in subgroups
+]
+
+---
+
+## The New Post-Covid Assessment Guidelines
+
+### Essay  Guidelines
+
++ Current Deadline on Keats is **16 April at 4pm**
+  + I believe this incorporates all Covid & strike adjustments
+  
+### Exam Guidelines
+
++ The exam papers will remain unchanged 
+  - (the questions are the ones already written). 
++ **BUT**, you will answer two questions **not** three. 
+  - The word limit for each exam will be 2400 words.
++ Exams will be **24 hour open book online**
+  
+---
+
+## How will online exams work?
+
++ Exam papers will be uploaded to KEATS at the time designated by the examination timetable. 
+  - I do not know what our slot will be yet unfortunately
++ You will have **24 hours** to submit your assessment on KEATS. 
+  - Do **not** take 24 hours to answer the exam! 
++ You will submit a **single document with responses**
+  - Exceeding the word limit will result in the usual penalties
+  - Submission will be subject to usual plagiarism controls
+  - *Note*: because of online submission your exam answers will no longer be anonymous
+  
+## What should a take-home exam answer look like?
+
++ Like an in-person exam answer.
+  - We expect you to spend ~3 hours on it
++ You do **not** need footnotes or bibliographies. 
+
+---
+
+.pull-left60[
+## Exam strategy
+
+1. **British economy and population overview**
+2. The agricultural revolution
+3. Consumption in 18th c.
+4. Government and financial revolution
+5. Industrial revolution: overview
+6. Causes of industrial revolution
+7. Industrial revolution and trade
+8. **Standard of living debate**
+9. 19th c. globalization domestic politics
+10. 19th c. globalization commodity market integration
+11. Bank of England and financial stability
+12. Export of capital
+13. Decline in Agriculture/Great Depression
+14. Victorian failure
+15. Entrepreneurial failure
+16. Economics of empire
+17. **Public health and welfare**
+18. **The economics of WWI**
+19. Interwar monetary and financial crisis
+20. The interwar economy
+]
+
+.pull-right40[
+## **Not on exam**
+
+### Topics Covered
+
+2. Agricultural revolution (week 2)
+3. Industrious revolution (3)
+4. Gov't & Finance & Banking (4,11)
+5. Industrial revolution (5,6,7)
+6. 19th c. globalization (8,9,13)
+7. Financial stability (11)
+8. Victorian decline broadly (12,13,14,15)
+9. Empire (16, 12)
+10. Interwar (19,20)
+
++ 12 Qs 9 topics, pick 2!
++ 'Big' topics might have more questions
+]
+
+---
+
+## Lecture: The British economy in the interwar
+
+.pull-left[
+
+### Outline
+
++ How did the economy fair?
+  - In terms of growth
+  - In terms of our expectations
+  - In comparison to elsewhere
++ The problems of unemployment
+  - How bad was it?
+  - Why was unemployment high?
++ The problems of monetary policy
+  - Was money overvalued?
+  - Why return to Gold?
+  - Why was Britain so quick to abandon Gold?
+]
+
+.pull-right[
+
+### Themes
+
++ Did Britain do worse than elsewhere in this period?
++ Were problems, like unemployment, actual policy failures?
+  - Or conversely, were they merely reflection of longer-term slide in international competitiveness of GB?
+]
+
+---
+
+```{r, comparative_perspective, out.width='100%', fig.height=4.5, fig.width=6, fig.retina=4}
+library(readxl)
+library(tidyverse)
+library(ggrepel)
+
+maddison <- read_xlsx(path = "~/Dropbox/teaching/brit_eh_1700_1940/lectures/week01/mpd2018.xlsx", 
+                      sheet = "Full data")
+
+plotdf <- maddison %>% filter(year <= 1938, 
+                    year > 1910, 
+                    countrycode %in% c("GBR", "FRA", 
+                                       "DEU", "USA",
+                                       "ITA", "AUT"),
+                    !is.na(rgdpnapc))
+
+plotdf %>% 
+  ggplot(aes(year, rgdpnapc, 
+             group = countrycode,
+             color=countrycode)) +
+  ggtitle("British GDP in the Interwar in Comparative Perspective", 
+          subtitle = "Source: Maddison project") +
+  geom_line() +
+  geom_point() +
+  geom_label_repel(data = plotdf %>%
+              group_by(countrycode) %>% 
+              filter(year == last(year)) %>% 
+              ungroup(), 
+            aes(label = country, x = year, y=rgdpnapc, color=countrycode),
+            nudge_x = 15) +
+  guides(color = FALSE) +
+  scale_color_brewer(type = "qual", palette = 2) +
+  theme_lecture +
+  xlab("Year") + ylab("Real GDP per capita")
+
+```
+
+---
+
+## Warfare, Capital Destruction & Growth
+
+.pull-left[
+
++ Should see growth after war b/c
+  - Can build more productive things
+  - Can replace destroyed capital stock
++ Therefore...
+  - The harder you fall between 1913-1920,
+  - The faster you should grow between 1920-1927
+]
+
+.pull-right[
+
+![eich_reg](eichengreen_regression.png)
+]
+
+### Britain seems to underperform
+
++ This is especially true considering that Britain's capital intensity increases more rapidly than in other European countries
+
+---
+
+## Key problems for Britain at end of war
+
++ Loss of external markets:
+  - During war, exports disrupted but demand remains in e.g. LA and Southeast Asia
+  - Countries like Japan/USA fill export whole,
+    + Hard to displace post-war
++ During war, Britain requisitioned foreign assets, sold ~10%
+  - We recall income from investments abroad was *big* for GB
+  - Implies ~10% fall in income frome abroad
+  - This demands an *improvement* in exports to earn foreign exchange abroad, at a time when hard
+  
+---
+
+## The 1920 Recession
+
+.pull-left[
++ Arguably over-determined
++ Demand-side view
+  - Firms use wartime profits to invest, buy rivals
+  - End of price-controls, inflation
+  - But... from 1918-1920 Gov't cuts spending by 75%
+  - Raises interest rates
+  - **demand falls** while firms have excess capacity
++ Supply-side view
+  - Unions strong post-war
+  - Negotiates hourly reductions keeping wages constant (13% fall in working week)
+  - Labor productivity constant
+  - **supply-shock**
+]
+
+.pull-right[
+```{r uk_cpi, fig.align='center', fig.retina=4, out.width="100%",fig.height=3.25, fig.width=4}
+library(tidyverse)
+library(ggrepel)
+
+cpi <- read_csv("UKCPI_1910-1938.csv", skip = 1)
+
+
+cpi %>% filter(Year > 1910, Year <= 1938) %>%
+  ggplot(aes(Year, `Retail Price Index (2010 = 100)`)) +
+  geom_line() +
+  geom_point() +
+  geom_vline(xintercept = 1920, linetype="dashed") +
+  theme_lecture +
+  labs(title = "UK Retail Price Index",
+       subtitle = "1910-1938") +
+  ylab("2010=100")
+
+```
+
++ Both theories could be true.
++ Continued slow growth in 1920's points a little towards supply shock
+]
+---
+
+## Unemployment
+
+![hatton](hatton_unemp.png)
+
++ The spike in unemployment post-WWI is v. large
++ The level after 1929 is enormous
+
+---
+
+## Unemployment in Comparative Perspective
+
+![eich_unemp](eichengreen_unemp.png)
+
++ Britain's unemployment problem tends to be worse than other industrialized countries in the 1920s
+    - Situation changes after 1931 when Britain abandons the Gold Standard
+
+---
+
+## Theories of the Unemployment Problem, I
+
+A. Government interventions in labor market (unimployment insurance)
+  - Some scholars think this explains a lot of it
+  - Most think it doesn't 
+
+B. Poor specialization in industries
+  - Britain was specialised in industries (coal, iron, steel) that saw slow global growth
+  - Related to longer tradition of worry about Britain's failure to excel in more dynamic sectors
+    + Chemicals, electricity, new textiles (rayon), etc.
+      
+---
+
+## Theories of the Unemployment Problem, II
+
+C. Unions 
+  - In period of falling prices blocked nominal wage cuts
+  - Obtained hour reductions at equivalent wages after war -- supply-side shock contributes to recession in 1920
+
+D. Monetary mis-alignment
+  - Aim for Gold Standard at pre-War parity promotes high interest rates and tight fiscal policy
+    - On gold standard, pound is over-valued relative to prices
+    - Demands major nominal labor market adjustment that labor institutions not able to implement
+    
+> Theories C & D share view that nominal wages had downward rigidities
+
++ Stated plainly: 
+  - people don't like the number written on each paycheck to get smaller even if it's value stays the same
+
+---
+
+## The Gold Standard and Unemployment
+
++ Britain returns to the Gold Standard in 1925 at **pre-War parity**
+  - **Pre-War parity** means that sterling is redeamable for the same amount of gold as before the war
+  - Since the dollar remained on gold throughout the war, this is equivalent to fixing Sterling to the pre-War $/£ exchange rate
++ **Gold Standard** here means really two things:
+  1. You can convert your money into Gold at the specified price
+  2. You do not face restrictions on importing/exporting that gold
+  
+### Difficulties of returning to Gold
+
++ What might be the problem of returning to Gold Standard?
+  - Your goods as priced in $ get more expensive
+  - To make your goods cheaper you need your labor costs to $\downarrow$
+    + If they don't labor is too expensive and you get persistent unemployment
+
+---
+
+```{r us_uk_xr, fig.align='center', fig.retina=4, out.width="100%",fig.height=4.5, fig.width=6}
+library(tidyverse)
+library(ggrepel)
+
+xr <- read_csv("EXCHANGEPOUND_1900-1945.csv", skip = 2)
+
+
+xr %>% filter(Year > 1910, Year < 1938) %>% 
+  ggplot(aes(Year, Rate)) +
+  geom_rect(aes(xmin=1914, xmax=1918, ymin=3.5, ymax=5.5), 
+            fill='coral', alpha=.25) +
+  annotate('text', x=1913, y=5.25, label="WWI", color="coral")+ 
+  geom_rect(aes(xmin=1925, xmax=1931, ymin=3.5, ymax=5.5), 
+            fill='royalblue', alpha=.05) +
+  annotate('text', x=1923, y=5.25, label="Return to\nGold at\nParity", 
+           color = "royalblue") +
+  geom_vline(xintercept = 1933) +
+  annotate('text', x=1935, y=3.75, label="US leaves\nGold") +
+  geom_line() +
+  geom_point() +
+  theme_lecture +
+  labs(title = "The Dollar-Pound Exchange Rate", 
+       subtitle = "1910-1938") +
+  ylab("$ per £")
+
+```
+
+---
+
+## Was gold the problem? 
+
+### Maybe...
+
++ Hard to know what the 'correct' exchange rate should be
++ Keynes famously over-estimated by how much £ was overvalued
+  - Keynes says ~15%
+  - Subsequent estimates say 5-10%
+  - Estimates very imprecise
++ Made some exports uncompetitive
+  - But some argue also accelerated adjustment towards newer industries within Britain (theory B)
+  - Also, if you are an industry who buys their *inputs* from abroad exchange rate makes inputs cheap
+
+---
+
+.pull-left[
+## Leaving Gold
+
+### 1929
+
++ Crash in US stock market
+  - Spills outward
+  - Hits in particular places UK exports to $\rightarrow$ big falls in UK industrial production
++ **demand shock**
+
+### 1931
+
++ Failures of banks (*Credit Anstalt*) in Austria and Germany
++ Financial crisis imported to London via loan portfolios
+  - Crash in 1931 damages financial system (see James, *End of Globalization*)
+  - Speculative pressure on pound
+]
+
+.pull-right[
+![ip](eichengreen_ind_prod.png)
+
+#### Britain abandons the Gold Standard in late-1931
+
++ Why so soon?
+  - Labor gov't unwilling to exacerbate unemployment with rate hikes and fiscal contraction
+  
+#### Effects
+
++ Pretty good!
+  - Can slash interest rates, helps industrial growth
+  - British banks have liabilities in sterling
+
+]
+
+---
+
+## Britain after 1931
+
++ Britain recovers better than elsewhere
+  - Helps to be off gold
++ Recovery driven predominantly by domestic demand
+  - Home-building biggest growth sector
+  
+### The push for 'orderly competition'
+
++ Gov't eager to support business
+  - Push significant mergers and amalgamations
+  - Allow significant coordination in name of 'managerial capitalism' with economies of scale
+  - Effect is often cartel/monopoly
+  - No anti-trust enforcement
+
+> "...as much as half of manufactured output to be produced by cartel members in the mid-1930s (Crafts 1999), leading one contemporary pessimistically to observe that ‘as a feature of industrial and commercial organisation free competition has nearly disappeared from the British scene’ (Lucas 1937: 64)." <br> -Eichengreen
+
+---
+
+## Taking the long view
+
+>  "Economic history is distinguished from economics by a predisposition to focus upon the long run. When looking at the inter-war... the timespan (1921-37) is short and punctuated by a uniquely severe depression (1929-32). Thus in arguments about the efficacy of government policies, inspired by Keynesian and anti-Keynesian conceptions of the period, historians are inclined to bring Britain's structural problems to the fore. The origins of these problems can be traced back to the 1870s and they became serious during the last great international boom of the Liberal era, 1899-1914, when the productivity of industry failed to grow at all. Britain entered the First World with an economy specialized upon a narrow range of staple industries, under intensifying threat from foreign competition."<br> O'Brien, 128
+
++ Is the interwar subject to special problems apart from the recession?
++ Or is this just the continuation of a longer-term trajectory of decline?
+
+---
+
+class: inverse, center, middle
+
+# Questions for Discussion
+
+> Why did Britain return to the Gold Standard at the pre-War parity in 1925?
+
+<br>
+
+--
+
+> Was the commitment to the Gold Standard to blame for the persistent unemployment problem in interwar Britain?

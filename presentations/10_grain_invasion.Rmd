@@ -1,0 +1,362 @@
+---
+title: "Week 10: 19th century globalization and trade: factor prices" 
+author: | 
+    | Dr. Gabriel Geisler Mesevage 
+    | gabriel.mesevage@kcl.ac.uk
+    | Office Hours: Wed. 10-11am & Thurs. 3-4pm
+date: "3 December 2019"
+output: 
+  xaringan::moon_reader:
+    nature:
+      beforeInit: "macros.js"
+    lib_dir: libs
+    css: xaringan-themer.css
+---
+
+<style type="text/css">
+.white { color: white; }
+.large { font-size: 130% }
+.small { font-size: 70% }
+.pull-right40{ 
+  float: right;
+  width: 40%;}
+.pull-left60{
+  float: left;
+  width: 60%;
+}
+.scale120{
+  float: left;
+  width: 120%;
+}
+.scale80{
+  float: right;
+  width: 80%
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+solarized_light()
+```
+
+## Today's Plan
+
+.large[
++ Brief Lecture
++ Discussion
++ Essay tips
++ Essay workshop
+]
+
+---
+
+## Globalization in History
+
+### When was globalization?
+
++ The 1500s vs the 1800's
+
+### What should we consider globalization?
+
++ The existence of trading links?
++ The size of trading links?
+
+****
+
+> "...trade theory tells us that if a country’s relative commodity prices are little affected... then its consumption, production and factor income distribution will also be little affected. This inference follows regardless of how colorful are the tales of explorers, discoverers, sea battles, plunder, pirates, flows of gold, flows of silver and the immense spice trade profits that fill our history books."<br> -O'Rourke & Williamson, "The Heckscher-Ohlin Model Between 1400 and 2000"
+
+---
+
+## Heckscher-Ohlin
+
+.pull-left[
+![heckscher](Eli_Heckscher.jpg)
++ Eli Heckscher
++ Bertil Ohlin
+]
+
+.pull-right[
+![ohlin](Bertil_Ohlin.jpg)
+]
+
+---
+
+## Heckscher-Ohlin: Determinants of Trade
+
+> "Australia has a small population and an abundant supply of land, much of it not very fertile. Land is consequently cheap and wages high, in relation to most other countries. It would therefore seem profitable to produce goods requiring large areas of less fertile land but relatively little labour. Such is the case, for example, in wool production. . . . Similarly, regions well endowed with technically trained labor and capital will specialize in industrial production. . . . Exports from one region to the other will on the whole consist of goods that are intensive in those factors with which this region is abundantly endowed and the prices of which are therefore low. . . . In short, commodities that embody large quantities of particularly scarce factors are imported, and commodities intensive in relatively abundant factors are exported. . . . Australia exchanges wool and wheat for industrial products since the former embody much land and little labour while the opposite is true of industrial products. Australian land is thus exchanged for European labor."<br> -Ohlin, 1924 
+
+---
+
+## Heckscher-Ohlin: Determinants of Factor Prices
+
+> "If, for example, Australia produced its own industrial products rather than importing them from Europe and America in exchange for agricultural products, then, on the one hand, the demand for labor would be greater and wages consequently higher, and on the other the demand for land, and therefore rent, lower than at present. At the same time, in Europe the scarcity of land would be greater and that of labor less than at present if the countries of Europe were constrained to produce for themselves all their agricultural products instead of importing some of them from abroad. Thus trade increases the price of land in Australia and lowers it in Europe, while tending to keep wages down in Australia and up in Europe. **The tendency, in other words, is to approach an equalization of the prices of productive factors**."<br> -Ohlin, 1924
+
+---
+
+.pull-left[
+### Land Abundant Exporters
+
+Factors   |  Technology  |  Exports
+```{r ho_mermaid}
+library(DiagrammeR)
+
+mermaid("
+graph LR
+A((Abundant Land)) --> D[Production<br>Process]
+B((Labor)) --> D
+C((Capital)) --> D
+D --> E((Food))")
+
+```
+]
+
+.pull-right[
+### Labor Abundant Exporters
+Factors   |  Technology  |  Exports
+```{r ho_mermaid_2}
+library(DiagrammeR)
+
+mermaid("
+graph LR
+A((Land)) --> D[Production<br>Process]
+B((Abundant Labor)) --> D
+C((Capital)) --> D
+D --> E((Manuf.<br>goods))")
+
+```
+]
+---
+
+## Convergence in Factor Markets: The Evidence
+
++ OW compute a measure of how 'spread out' the data is
+\begin{equation}
+C(N) = \frac{\sum_{i=1}^N(x_i - \bar{x})^2}{\bar{x}^2}, \ \bar{x} = \frac{\sum_{i=1}^N x_i}{N}
+\end{equation}
+
+.pull-left[
+![rw_early](real_wage_dispersion_1830_1870.png)
+
++ Divergence in the early 19th c. as New World wages ran ahead
+
+]
+
+.pull-right[
++ The late 19th c. saw pronounced convergence.
++ Even more so if you trim outliers
+
+![rw_late](real_wage_dispersion_1870_1911.png)
+]
+
+---
+
+```{r uk_factors, fig.align='center', fig.retina=3, out.width="100%", fig.width=6, fig.height=4.5}
+library(tidyverse)
+library(ggthemes)
+
+fp <- data.frame(date = seq(1877, 1912, 5),
+                 real_wage = c(100, 104,
+                               113.9, 118.8,
+                               127.6, 121.6,
+                               128.8, 125.9),
+                 real_land = c(100, 77.3, 76.1, 
+                               76.7, 82.2, 69.8,
+                               68.3, 58.2))
+
+fp <- fp %>%
+  gather("factor", "index", -date) 
+
+fp %>% 
+  ggplot(aes(date, index, color=factor)) +
+  geom_line() + 
+  geom_point()+
+  theme_hc() +
+  scale_color_hc() +
+  guides(color = FALSE) +
+  geom_label(data = fp %>% filter(date==1912),
+             aes(date, index, color=factor, 
+                 label = c("Real Wage", "Real Land Prices"))) +
+  xlim(c(1875, 1915)) +
+  theme(panel.background = element_rect(fill = "#fdf6e3"),
+        plot.background = element_rect(fill = "#fdf6e3"))  +
+  ggtitle("Hekscher-Ohlin at Work?", 
+          subtitle = "Index of British Land and Labor Prices")
+
+```
+
+---
+
+```{r wage_rent_ratios, fig.align='center',fig.retina=3, out.width="100%", fig.width=6, fig.height=4.5}
+library(readxl)
+library(ggrepel)
+
+wr <- read_xlsx("wage_rent_ratios.xlsx")
+
+wr <- wr %>% gather("Country", "Index", - Year) %>% 
+  mutate(Continent = ifelse(Country %in% c("Australia", "US"), 
+                            "New World", "Old World"),
+         Policy = ifelse(Country %in% c("France", "Germany"),
+                                 "Protectionist", "Open"))
+
+wr %>% 
+  ggplot(aes(Year, Index, 
+             group = Country, 
+             color = Continent, linetype = Policy)) +
+  geom_line() + 
+  geom_point()+
+  theme_hc() +
+  scale_color_hc() +
+  guides(color = FALSE) +
+  geom_label_repel(data = wr %>% filter(Year==1912),
+             aes(Year, Index, color=Continent, 
+                 label = Country)) +
+  xlim(c(1875, 1915)) +
+  theme(panel.background = element_rect(fill = "#fdf6e3"),
+        plot.background = element_rect(fill = "#fdf6e3"))  +
+  ggtitle("Evidence of Convergence in Wage-Rental Ratios?", 
+          subtitle = "1877 to 1912")
+
+```
+
+---
+
+![anlo_us](anglo_us_wheat.png)
+
++ Factor price convergence implies commodity market integration
++ The **European Grain Invasion**
+
+---
+## What accounts for convergence
+
+.center[
+![:scale 70%](harley_freight_rates.png)
+]
++ Transport costs fall so quickly tariffs are almost insufficient!
+
+---
+
+## Transport Revolution
+
+### Canals
+
++ Earliest major transport improvement, e.g. 1750-1820 in UK
+    - In 1817 took 52 days to move freight from Cincinnati to NYC
+    - in 1852 took 6 days
+
+### Steamship
+
++ Series of improvements after 1860s make them more efficient
++ **Suez Canal** interacts with steam ships -- can refuel on trips east
+
+### Railroads
+
++ Link internal markets, particularly in US
++ Critical for pioneering financial and managerial capitalism
+
+---
+
+## Consequences: The Age of Mass Migration
+
+.pull-left[
+![em](emigration_europe.png)
+
+]
+
+.pull-right[
+![im](immigration_us.png)
+]
+
++ About 60 million Europeans emigrate between 1820 and 1920
++ Relatively higher wages in New World drove immigrants abroad
++ Also displacement from disappearing agricultural jobs
+
+---
+
+## Consequences: The Collapse of Agricultural Income
+
++ The discovery and colonization of the 'New World' raised the amount of land per European capita 6-fold!
+
+> "Less frequently remarked upon, but equally obvious, are the long-run implications for European income distribution. Such an increase in land endowments would inevitably spell disaster for European landowners. Over-all living standards might increase, but in the long run European rents would decline, with European labor or capital benefitting." <br> -O'Rourke, "European Grain Invasion", p. 775
+
+
+### Backlash to globalization
+
++ Several political consequences flow from 19th century globalization
+    1. Tariffs on the continent (an 'Iron & Rye' alliance) 
+    2. Free trade in Britain (a labor & capital alliance)
+    3. Escalating immigration restriction in the New World
+    4. New world tariffs to defend manufactures
+
+---
+## Key take-aways
+
+### Heckscher-Ohlin
+
+- What you trade is driven by factor ratios
+- Trade drives factor price convergence
+
+### Commodity prices converged over the 19th century
+
+- especially in primary agricultural products
+
+
+### Technology as a driving force for globalization
+
+- This is in contrast to e.g. post-WWII where the creation of GATT/WTO is predominantly a political project.
+---
+
+class: inverse, center, middle
+
+## Essays
+
+---
+
+### Essay Writing Tips
+
+### Care about your writing/Care about your reader
+
+- Spelling, Style, Structure
+- Tell the reader what you will do and then do it
+
+### Answer the question!
+
+- This should be particularly easy as you can pick your own question
+- If you want to pick your own question remember to **write to me first!!**
+
+### Things not to worry about
+
+- Don't worry about your essay 'not being economics-y enough'
+    + Any kind of good essay will get a good grade
+- I do not expect you to use primary sources
+    + This means it is possible to get a top grade without them
+    + Although adding them can strengthen an essay
+    
+---
+
+background-image: url(questions_large.png)
+background-size: contain
+
+---
+
+## Essay Workshop Structure
+
+.large[
+
+### Mechanics
+
++ I will group you by topic
++ If you do not have a topic you will go in the 'finding a topic' group
++ Discuss strategies and sources:
+    - What do you think the essay needs to include?
+    - What sources are you relying on?
+    - If you have an outline what is it?
+    
+### Notes
+
++ Department does not grade on a curve: there is no penalty to helping your peers
+]
