@@ -22,7 +22,7 @@ library(RefManageR)
 BibOptions(check.entries = FALSE, 
            bib.style = "authoryear", 
            style = "markdown",
-           dashed = TRUE)
+           dashed = TRUE, hyperlink = FALSE)
 source("helper_functions/helper_print_bib.R")
 bib <- ReadBib("pres.bib")
 ```
@@ -32,6 +32,7 @@ library(xaringanthemer)
 solarized_light()
 source("helper_functions/theme_lecture.R")
 xaringanExtra::use_webcam()
+xaringanExtra::use_tile_view()
 ```
 
 class: center, inverse, middle
