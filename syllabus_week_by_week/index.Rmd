@@ -3,9 +3,9 @@ title: "British Economic History Syllabus"
 author: "Dr. Gabriel Geisler Mesevage"
 date: "Last update: `r format(Sys.time(), '%d %B, %Y')`"
 documentclass: book
+output_dir: "docs"
 output:
   bookdown::gitbook: default
-output_dir: "docs"
 ---
 
 ```{r setup, include=FALSE}
