@@ -16,10 +16,10 @@
 + [Gregory Clark, "The condition of the working class in England, 1209-2004," *Journal of Political Economy*, Vol. 113, No. 6, 2005](https://www.journals.uchicago.edu/doi/10.1086/498123){target="_blank"}
 + D. McCloskey, "1780-1860: a survey", in R. Floud & D. McCloskey (eds.) *The Economic History of Britain Since 1700*, 2nd Ed. CUP: 1994.
 
-## Slides
+<!-- ## Slides -->
 
-```{r}
-knitr::include_url("https://gabrielfgm.github.io/beh-slides/01_long_run_overview.html#1")
-```
+<!-- ```{r} -->
+<!-- knitr::include_url("https://gabrielfgm.github.io/beh-slides/01_long_run_overview.html#1") -->
+<!-- ``` -->
 
-[Link to view in full-screen](https://gabrielfgm.github.io/beh-slides/01_long_run_overview.html#1)
+<!-- [Link to view in full-screen](https://gabrielfgm.github.io/beh-slides/01_long_run_overview.html#1) -->
