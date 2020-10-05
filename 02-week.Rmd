@@ -11,4 +11,15 @@
 + R.V. Jackson, ‘Growth and Deceleration in English Agriculture 1660-1790’ *Economic History Review* (1985)
 + E. L. Jones, *Agriculture and the Industrial Revolution*, Basil Blackwell: Oxford, 1974.
 + J D Chambers & G E Mingay, *The Agricultural Revolution, 1750-1880*, Batsford: London, 1966.
-+ [Allen, R. (2004). "Agriculture during the industrial revolution, 1700–1850."" In R. Floud & P. Johnson (Eds.), *The Cambridge Economic History of Modern Britain* (pp. 96-116). Cambridge: Cambridge University Press.](https://doi.org/10.1017/CHOL9780521820363.005){target="_blank"}
++ [Allen, R. (2004). "Agriculture during the industrial revolution, 1700–1850."" In R. Floud & P. Johnson (Eds.), *The Cambridge Economic History of Modern Britain* (pp. 96-116). Cambridge: Cambridge University Press.](https://doi.org/10.1017/CHOL9780521820363.005)
++ Allen, R. C. (1992). _Enclosure and the Yeoman: The Agricultural Development of the South Midlands 1450-1850_. OUP Catalogue 9780198282969. Oxford University Press.
++ [Brunt, L. (2003). “Mechanical Innovation in the Industrial Revolution: The Case of Plough Design”. In: _The Economic History Review_ 56.3, pp. 444-477.](https://doi.org/10.1111%2Fj.1468-0289.2003.00258.x).
++ Clark, G. and A. Clark (2001). “Common Rights to Land in England, 1475-1839”. In: _The Journal of Economic History_ 61.4, pp. 1009-1036.
++ Gerhold, D. (1996). “Productivity Change in Road Transport before and after Turnpiking, 1690-1840”. In: _The Economic History Review_ 49.3, pp. 491-515.
++ Mokyr, J. (2012). _The Enlightened Economy: An Economic History of Britain 1700-1850_. The New Economic History of Britain. Yale University Press.
++ Overton, M. (1996). _Agricultural Revolution in England: The Transformation of the Agrarian Economy 1500-1850_. Cambridge Studies in Historical Geography. Cambridge University Press.
++ Sturgess, R. W. (1966). “The Agricultural Revolution on the English Clays”. In: _The Agricultural History Review_ 14.2, pp. 104-121. ISSN: 00021490.
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/02_agricultural_revolution.html#1). Press `f` to view in full screen and arrows to navigate.
