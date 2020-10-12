@@ -13,3 +13,8 @@
 + [De Vries, Jan. “The Industrial Revolution and the Industrious Revolution.” The Journal of Economic History, vol. 54, no. 2, 1994, pp. 249–270.](https://www.jstor.org/stable/2123912){target="_blank"}
 + [Berg, M. (2007). *Luxury and Pleasure in Eighteenth-Century Britain.*: Oxford University Press.](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199215287.001.0001/acprof-9780199215287){target="_blank"}
 + McKendrick, Neil, Brewer, John, and Plumb, J. H. *The Birth of a Consumer Society: The Commercialization of Eighteenth-century England.* London: Europa, 1982.
++ [Koyama, Mark. ‘The Transformation of Labor Supply in the Pre-Industrial World’. Journal of Economic Behavior & Organization 81, no. 2 (2012): 505–23.](https://doi.org/10.1016/j.jebo.2011.07.015)
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/03_consumption.html#1). Press `f` to view in full screen and arrows to navigate.
