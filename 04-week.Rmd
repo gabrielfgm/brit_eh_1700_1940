@@ -13,3 +13,7 @@
 + [Gregory Clark, "The Political Foundations of Modern Economic Growth: England, 1540-1800," *The Journal of Interdisciplinary History,* Vol. 26, No. 4, 1996](https://www.jstor.org/stable/pdf/205042.pdf){target="_blank"}
 + Anne Murphy, *The Origins of English Financial Markets: Investment and Speculation Before the South Sea Bubble*, CUP: 2009.
 + [NEAL, L., & QUINN, S. (2001). "Networks of information, markets, and institutions in the rise of London as a financial centre, 1660–1720." *Financial History Review*, 8(1), 7-26.](https://doi.org/10.1017/S0968565001000130){target="_blank"}
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/04_gov_finance#1). Press `f` to view in full screen and arrows to navigate.
