@@ -20,3 +20,8 @@
 + M. Berg & P. Hudson, ‘Rehabilitating the Industrial Revolution’ *Economic History Review* (1992)
 + R. Floud & D. McCloskey (eds), *The Economic History of Britain since 1700* (2nd ed. 1994) vol. I, ch. 3 (Crafts)
 + M. Kirby & M. Rose (eds.), *Business Enterprise in Modern Britain from the Eighteenth to the Twentieth Century* (1994) chs. 2 and 3 (Jones, Rose)
+
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/05_ir_overview.html#1). Press `f` to view in full screen and arrows to navigate.
