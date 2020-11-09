@@ -15,3 +15,7 @@
 + [Humphries, J. and Schneider, B. (2019), Spinning the industrial revolution. *The Economic History Review*, 72: 126-155.](https://doi.org/10.1111/ehr.12693){target="_blank"}
 + [Allen, R. C. (2019), Spinning their wheels: a reply to Jane Humphries and Benjamin Schneider. *The Economic History Review*.](https://doi.org/10.1111/ehr.12850){target="_blank"}
 + [Morgan Kelly, Joel Mokyr, and Cormac O Grada, "Precocious Albion: A New Interpretation of the British Industrial Revolution," *Annual Review of Economics*, Vol. 6, 2014.](https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080213-041042){target="_blank"}
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/06_causes_IR.html#1). Press `f` to view in full screen and arrows to navigate.
