@@ -14,3 +14,7 @@ https://www.jstor.org/stable/2123399)
 + [CINNIRELLA, F. (2008). Optimists or pessimists? A reconsideration of nutritional status in Britain, 1740–1865. *European Review of Economic History*, 12(3), 325-354.](https://doi.org/10.1017/S136149160800227X){target="_blank"}
 + [Emma Griffin, Diets, Hunger and Living Standards During the British Industrial Revolution, *Past & Present*, Volume 239, Issue 1, May 2018, Pages 71–111](https://doi.org/10.1093/pastj/gtx061){target="_blank"}
 + [Sara Horrell and Jane Humphries, "Children's work and wages in Britain, 1280-1860," *Explorations in Economic History*, Vol. 73, July 2019](https://doi.org/10.1016/j.eeh.2019.04.001){target="_blank"}
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/08_standard_of_living_debate#1). Press `f` to view in full screen and arrows to navigate.
