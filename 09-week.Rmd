@@ -3,9 +3,15 @@
 ## Core 
 
 + [M. Blaug "The Myth of the Old Poor Law and the Making of the New." *The Journal of Economic History* 23, no. 2 (1963): 151-84.](http://www.jstor.org/stable/2116435)
-+ [D. McCloskey, "New perspectives on the old poor law", *Explorations in Economic History*, Vol. 10, No. 4, 1973.](https://doi.org/10.1016/0014-4983(73)90025-9)
++ [P. Solar, "Poor relief and English economic development before-the industrial revolution", *Economic History Review*, 48, 1, 1995](https://doi.org/10.1111/j.1468-0289.1995.tb01406.x)
 
 ## Additional 
 
 + [M. Blaug, "The Poor Law Report Reexamined." *The Journal of Economic History* 24, no. 2 (1964): 229-45.](http://www.jstor.org/stable/2115861)
 + A Kidd, State, society and the poor in nineteenth-century England (Macmillan, 1999), ch 2
++ George R. Boyer, *An Economic History of the English Poor Law, 1750-1850*, CUP: 1990, Chapters 2 and 3.
++ [D. McCloskey, "New perspectives on the old poor law", *Explorations in Economic History*, Vol. 10, No. 4, 1973.](https://doi.org/10.1016/0014-4983(73)90025-9)
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/09_poor_law#1). Press `f` to view in full screen and arrows to navigate.
