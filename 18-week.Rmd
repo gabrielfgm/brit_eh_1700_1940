@@ -14,3 +14,7 @@
 + B.W. Alford, *Depression and Recovery? British Economic Growth 1918-1939* (1972)
 + Rowe, David M. “The Tragedy of Liberalism: How Globalization Caused the First World War.” *Security Studies* 14, no. 3 (2005): 407–47.
 + Tooze, Adam, and Ted Fertik. “The World Economy and the Great War.” *Geschichte und Gesellschaft* 40, no. 2 (2014): 214–38.
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/18_wwi#1). Press `f` to view in full screen and arrows to navigate.
