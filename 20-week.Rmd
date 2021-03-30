@@ -4,7 +4,7 @@
 
 + [Eichengreen, B. (2004). The British economy between the wars. In R. Floud & P. Johnson (Eds.), The Cambridge Economic History of Modern Britain (pp. 314-343). Cambridge: Cambridge University Press.]( https://doi.org/10.1017/CHOL9780521820370.013){target="_blank"}
 + [P.K. O’Brien, ‘Britain’s Economy between the Wars’ *Past and Present* (1987)](https://www.jstor.org/stable/pdf/650841.pdf?refreqid=excelsior%3A09ec919b161a551579b8a4e816489098){target="_blank"}
-+ [Barry Eichengreen, Chapter 3 "Interwar Instability" *Globalizing Capital: A History of the International Monetary System*, PUP: 2008.](https://ebookcentral.proquest.com/lib/kcl/reader.action?docID=483542&ppg=48){target="_blank"}
++ [Leslie Hannah, *The Rise of the Corporate Economy*, Chapter 3](https://ebookcentral.proquest.com/lib/kcl/reader.action?docID=1189420&ppg=46)
 
 ## Additional
 
@@ -13,3 +13,8 @@
 + D.H. Aldcroft & H. Richardson (eds), *The British Economy 1870-1939* (1969) Section B, chs. 7 and 8
 + C. Cook & J. Stevenson, *The Slump* (1977)
 + A. Booth, ‘Britain in the 1930s: a Managed Economy’ *Economic History Review* (1987) and continued as discussion in *Economic History Review* (1989)
++ [Barry Eichengreen, Chapter 3 "Interwar Instability" *Globalizing Capital: A History of the International Monetary System*, PUP: 2008.](https://ebookcentral.proquest.com/lib/kcl/reader.action?docID=483542&ppg=48){target="_blank"}
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/20_interwar#1). Press `f` to view in full screen and arrows to navigate.
