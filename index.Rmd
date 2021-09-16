@@ -29,9 +29,38 @@ The economic transformations that occurred in Britain between 1700 and 1940 fund
 
 + [Floud, R., & Johnson, P. (Eds.). (2004). *The Cambridge Economic History of Modern Britain.* Cambridge: Cambridge University Press.](https://www.cambridge.org/core/books/cambridge-economic-history-of-modern-britain/CE91402967901B6BF90415B4D73FC79B) This is the first edition of the CEHMB which is available in digital form via the library. A newer edition exists. The link is to the first volume but all three volumes are available.
 + R. Floud and D. McCloskey (Eds.). (1994). *The Economic History of Britain since 1700.* 3 vols. Cambridge: Cambridge University Press. This is another 3 volume survey of British economic history since 1700. It is quite similar to the newer editions but contains some articles that are not covered by the newer surveys.
++ Mokyr, J. (2012). _The Enlightened Economy: An Economic History of Britain 1700-1850_. The New Economic History of Britain. Yale University Press. This is a recent book on British economic history up to 1850 by a 
+distinguished economic historian. It has a particular thesis about British economic
+growth, but the chapters are good historical surveys of particular topics we 
+will cover with extensive and recent bibliographies.
 
 ## Data sources
 
 + [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/) contains an enormous number of series. Most data is contemporary but they have some series that are historical.
 + [Jordà-Schularick-Taylor Macrohistory Database](http://www.macrohistory.net/data/) is developed by economic historians and contains macroeconomic data.
 + [http://eh.net/](http://eh.net/) is run by the Economic History Association and posts a number of published data series on its website. It also maintains [MeasuringWorth](https://www.measuringworth.com/datasets.html) for historical value comparisons.
++ [The Investor's Monthly Manual and digitized data 1869-1929 at Yale International Centre for Finance](https://som.yale.edu/faculty-research/our-centers-initiatives/international-center-finance/data/historical-financial-research-data/london-stock-exchange)
++ [The Economist Historical Archive, 1843-2014](https://go.gale.com/ps/start.do?p=ECON&u=kings)
++ [Financial Times Historical Archive, 1888-2010](https://go.gale.com/ps/start.do?p=FTHA&u=kings)
++ [The Times Digital Archive, 1785-2014, market coverage picks up around the 1840s](https://go.gale.com/ps/start.do?p=TTDA&u=kings)
++ [British Library Newspapers](https://go.gale.com/ps/start.do?p=BNCN&u=kings)
+
+## Archives in London
+
++ [Guildhall Library Business History Sources](https://www.cityoflondon.gov.uk/things-to-do/guildhall-library/collections/Pages/Business-history.aspx)
++ [London Metropolitan Archives](https://www.cityoflondon.gov.uk/things-to-do/london-metropolitan-archives/the-collections/Pages/default.aspx)
++ [The National Archives](https://nationalarchives.gov.uk/)
+
+## Assessment
+
+The course is assessed with 4 assignments:
+
++ An in-class presentation (10%)
++ Two (2) 2,000 word essays (15% each, 30% total)
++ A written exam (60%)
+
+Please start your essays with enough time to do well on them. I am happy to discuss 
+essay outlines with any student who would like to do so. Essays
+should be properly cited, and all submissions are checked for
+plagiarism.
+
