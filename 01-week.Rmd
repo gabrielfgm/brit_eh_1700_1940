@@ -2,7 +2,7 @@
 
 ## Core
 
-+ [Stephen Broadberry, Bruce M. S. Campbell, Alexander Klein, Mark Overton and Bas van Leeuwen, "Prologue: Historical national income accounting", *British Economic Growth, 1270-1870*, CUP: 2015.](https://keats.kcl.ac.uk/mod/resource/view.php?id=3063802)
++ [Stephen Broadberry, Bruce M. S. Campbell, Alexander Klein, Mark Overton and Bas van Leeuwen, "Prologue: Historical national income accounting", *British Economic Growth, 1270-1870*, CUP: 2015.](https://github.com/gabrielfgm/brit_eh_1700_1940/blob/master/pdfs/broadberry_Prologue_British_Economic_Growth.pdf)
 + [E. A. Wrigley, Chapter 2 "The divergence of England: the growth of the English economy in the seventeenth and eighteenth centuries," in *Poverty, Progress and Population*, CUP: 2004.](https://ebookcentral.proquest.com/lib/kcl/reader.action?docID=255180&ppg=60)
 + [Morgan Kelly, Cormac Ó Gráda, Adam Smith, Watch Prices, and the Industrial Revolution , The Quarterly Journal of Economics, Volume 131, Issue 4, November 2016, Pages 1727–1752](https://doi.org/10.1093/qje/qjw026)
 
