@@ -14,3 +14,7 @@
 + R.C. Michie, ‘The Stock Exchange and the British economy 1870-1939’ in J.J. van Helten & Y. Cassis (eds), *Capitalism in a Mature Economy* (1990)
 + M. Edelstein, *Overseas Investment in the Age of High Imperialism* (1982)
 + Y. Cassis, *City Bankers 1890-1914* (1994)
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/12_export_capital#1). Press `f` to view in full screen and arrows to navigate.
