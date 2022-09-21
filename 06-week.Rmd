@@ -1,9 +1,8 @@
-# Causes of the industrial revolution
+# Causes of the industrial revolution, I
 
 ## Core
 
 + [Robert Allen, "Why the industrial revolution was British: commerce, induced invention, and the scientific revolution," *Economic History Review*, Vol. 64, No. 2, 2011.]( https://doi.org/10.1111/j.1468-0289.2010.00532.x)
-+ Joel Mokyr, *The Enlightened Economy: An Economic History of Britain 1700-1850*, Yale: 2009, Introduction and Chapter 5. 
 + [Patrick O'Brien, "A conjuncture in global history or an Anglo-American construct: the British Industrial Revolution, 1700–1850," *Journal of Global History*, Vol. 5, No. 3, 2010.]( https://doi.org/10.1017/S1740022810000240)
 + [Jane Humphries, "The lure of aggregates and the pitfalls of the patriarchal perspective: a critique of the high wage economy interpretation of the British industrial revolution," *Economic History Review*, Vol. 66, no. 3, 2013.]( https://doi.org/10.1111/j.1468-0289.2012.00663.x)
 
@@ -14,7 +13,6 @@
 + [Allen, R. C. (2019), Real wages once more: a response to Judy Stephenson. *The Economic History Review*, 72: 738-754.](https://doi.org/10.1111/ehr.12663){target="_blank"}
 + [Humphries, J. and Schneider, B. (2019), Spinning the industrial revolution. *The Economic History Review*, 72: 126-155.](https://doi.org/10.1111/ehr.12693)
 + [Allen, R. C. (2019), Spinning their wheels: a reply to Jane Humphries and Benjamin Schneider. *The Economic History Review*.](https://doi.org/10.1111/ehr.12850)
-+ [Morgan Kelly, Joel Mokyr, and Cormac O Grada, "Precocious Albion: A New Interpretation of the British Industrial Revolution," *Annual Review of Economics*, Vol. 6, 2014.](https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080213-041042)
 
 ## Slides
 

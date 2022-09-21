@@ -1,19 +1,15 @@
-# The industrial revolution and international trade
+# Causes of the Industrial Revolution, II
 
 ## Core
 
-+ [Ronald Findlay and Kevin O'Rourke, Chapter 6 "Trade and the Industrial Revolution" in *Power and Plenty: Trade, War, and the World Economy in the Second Millenium*, PUP: 2007.](https://ebookcentral.proquest.com/lib/kcl/reader.action?docID=485770&ppg=340)
-+ [Joseph Inikori, Chapter 3 "A Historiography of the first industrial revolution" in *Africans and the Industrial Revolution*, CUP: 2002.](https://hdl.handle.net/2027/heb.02605)
-+ [Nuala Zahedieh, "Eric Williams and William Forbes: copper, colonial markets, and commercial capitalism", *The Economic History Review*, Vol. 74, No. 3, p. 784-808](https://doi.org/10.1111/ehr.13050)
++ [Joel Mokyr, "'The Holy Land of Industrialism': rethinking the Industrial Revolution", *Journal of the British Academy*, Vol. 9, 2021](https://www.thebritishacademy.ac.uk/publishing/journal-british-academy/9/the-holy-land-of-industrialism-rethinking-the-industrial-revolution/)
++ [Nuala Zahedieh, "Britain's Atlantic slave economy, the market for knowledge and skills, and early industrialisation: a response to Joel Mokyr's 'Holy Land of Industrialism'", *Journal of the British Academy*, Vol. 9, 2021](https://www.thebritishacademy.ac.uk/publishing/journal-british-academy/9/britains-atlantic-slave-economy-market-knowledge-early-industrialisation/)
++ [Maxine Berg & Pat Hudson, "Slavery, Atlantic trade and skills: a response to Mokyr's 'Holy Land of Industrialism'", *Journal of the British Academy*, Vol. 9, 2021](https://www.thebritishacademy.ac.uk/publishing/journal-british-academy/9/slavery-atlantic-trade-skills/)
 
 ## Additional
 
-+ [Harley, C. (2004). Trade: Discovery, mercantilism and technology. In R. Floud & P. Johnson (Eds.), The Cambridge Economic History of Modern Britain (pp. 175-203). Cambridge: Cambridge University Press.](https://doi.org/10.1017/CHOL9780521820363.008) {target="_blank"}
-+ [Engerman, S., & O’Brien, P. (2004). The industrial revolution in global perspective. In R. Floud & P. Johnson (Eds.), The Cambridge Economic History of Modern Britain (pp. 451-464). Cambridge: Cambridge University Press.](https://doi.org/10.1017/CHOL9780521820363.017){target="_blank"}
-+ J. Price, ‘What did Merchants Do? Reflections on British Overseas Trade 1660-1790’ *Journal of Economic History* (1989)
-+ D. Barnett, *London: Hub of the Industrial Revolution* (1998) Introduction and ch. 6
-+ S. Chapman, *Merchant Enterprise in Britain from the Industrial Revolution to World War 1* (1992) ch.3
++ Joel Mokyr, *The Enlightened Economy: An Economic History of Britain 1700-1850*, Yale: 2009, Introduction and Chapter 5. 
++ [Morgan Kelly, Joel Mokyr, and Cormac O Grada, "Precocious Albion: A New Interpretation of the British Industrial Revolution," *Annual Review of Economics*, Vol. 6, 2014.](https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080213-041042)
++ [Marxine Berg, "Useful knowledge, 'industrial enlightenment', and the place of India", *Journal of Global History*, Vol. 8, No. 1, 2013.](https://www.cambridge.org/core/product/identifier/S1740022813000077/type/journal_article)
++ [Joel Mokyr, "Bottom-up or Top-down? The origins of the Industrial Revolution", *Journal of Institutional Economics*, Vol. 14, No. 6, 2018](https://www.cambridge.org/core/product/identifier/S174413741700042X/type/journal_article)
 
-## Slides
-
-[Link to view slides](https://gabrielfgm.github.io/beh-slides/07_trade_ir.html#1). Press `f` to view in full screen and arrows to navigate.
