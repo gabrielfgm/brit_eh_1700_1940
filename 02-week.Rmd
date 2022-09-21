@@ -2,12 +2,14 @@
 
 ## Core
 
-+ [Robert C. Allen, "Tracking the Agricultural Revolution in England," *Economic History Review*, Vol. 52, No. 2, 1999.](https://www.jstor.org/stable/2599937)
-+ [Morgan Kelly and Cormac O Grada, "Numerare Est Errare: Agricultural Output and Food Supply in England Before and During the Industrial Revolution," *Journal of Economic History,* Vol. 73, No. 4, 2013.](https://www.jstor.org/stable/24551014)
++ [Robert C. Allen, "Introduction: Agrarian Fundamentalism and English Agricultural Development" in Allen *Enclosure and the Yeoman*, OUP: 1992](https://doi.org/10.1093/acprof:oso/9780198282969.003.0001)
++ [Leigh Shaw-Taylor, "The rise of agrarian capitalism and the decline of family farming in England", *Economic History Review*, Vol. 65, No. 4, 2012](https://www.jstor.org/stable/41475544)
 + [Mark Overton, "Re-Establishing the English Agricultural Revolution", *The Agricultural History Review*, Vol. 44, No. 4, 1996](https://www.jstor.org/stable/40275062)
 
 ## Additional
 
++ [Morgan Kelly and Cormac O Grada, "Numerare Est Errare: Agricultural Output and Food Supply in England Before and During the Industrial Revolution," *Journal of Economic History,* Vol. 73, No. 4, 2013.](https://www.jstor.org/stable/24551014)
++ [Robert C. Allen, "Tracking the Agricultural Revolution in England," *Economic History Review*, Vol. 52, No. 2, 1999.](https://www.jstor.org/stable/2599937)
 + M. Turner, ‘Agricultural productivity in the Eighteenth Century’ *Economic History Review* (1982)
 + R.V. Jackson, ‘Growth and Deceleration in English Agriculture 1660-1790’ *Economic History Review* (1985)
 + E. L. Jones, *Agriculture and the Industrial Revolution*, Basil Blackwell: Oxford, 1974.
