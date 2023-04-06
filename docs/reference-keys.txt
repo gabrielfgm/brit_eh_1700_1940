@@ -77,7 +77,8 @@ slides-16
 interwar-financial-and-monetary-crisis
 core-18
 additional-18
+slides-17
 the-interwar-economy
 core-19
 additional-19
-slides-17
+slides-18

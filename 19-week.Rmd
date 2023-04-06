@@ -11,3 +11,9 @@
 + [Accominotti, O. (2019), International banking and transmission of the 1931 financial crisis. *The Economic History Review*, 72: 260-285.](https://doi.org/10.1111/ehr.12736){target="_blank"}
 + Adam Tooze, *The Deluge: The Great War, America and the Remaking of the Global Order, 1916-1931*, 2014, Chapter 19 "The Great Deflation"
 + [Accominotti, O. and Eichengreen, B. (2016), "The mother of all sudden stops: capital flows and reversals in Europe, 1919–32". *The Economic History Review*, 69: 469-492.]( https://doi.org/10.1111/ehr.12128){target="_blank"}
+
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/19_interwar_finance.html#1). Press `f` to view in full screen and arrows to navigate.
+
