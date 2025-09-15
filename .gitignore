@@ -5,3 +5,4 @@ class_notes/*
 .Rproj.user
 *.docx
 /.quarto/
+_book/
