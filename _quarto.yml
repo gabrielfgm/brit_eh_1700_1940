@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "British Economic History Syllabus"
@@ -33,5 +34,3 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
-
-output_dir: "docs"
