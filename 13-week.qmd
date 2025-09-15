@@ -1,0 +1,26 @@
+# Stock exchanges and joint-stock companies
+
+This week we turn from banks and the money market to stock-exchanges and
+corporate forms. The readings focus on the history of the London stock 
+exchange, as well as the evolution of corporate forms in Britain -- including
+the growing use of joint-stock companies to organize business activity.
+
+## Core
+
++ [Ranald Michie, "The London Stock Exchange and the British Securities Market, 1850-1914", *Economic History Review*, Vol. 38, No. 1, 1985](https://www.jstor.org/stable/2596644)
++ [James Foreman-Peck, Leslie Hannah, "Extreme divorce: the managerial revolution in UK companies before 1914", *Economic History Review*](https://doi.org/10.1111/j.1468-0289.2011.00637.x)
++ [Guinnane, T.W., Harris, R. and Lamoreaux, N.R. (2017) ‘Contractual Freedom and Corporate Governance in Britain in the Late Nineteenth and Early Twentieth Centuries’, Business History Review, 91(2), pp. 227–277.](https://doi.org/10.1017/S0007680517000733)
+
+## Additional
+
+
++ [JOHN HANDEL, “The Material Politics of Finance,” Enterprise & Society (Cambridge University Press, 2021), 1–31.](https://www.cambridge.org/core/journals/enterprise-and-society/article/material-politics-of-finance-the-ticker-tape-and-the-london-stock-exchange-1860s1890s/7BA79594BE371FBD270D7C0D701F2B33) 
++ [Matthieu Chavaz and Marc Flandreau, “‘High & Dry’,” The Journal of Economic History (September 2017), 77: 3, 653–691.](https://www.cambridge.org/core/journals/journal-of-economic-history/article/high-dry-the-liquidity-and-credit-of-colonial-and-foreign-government-debt-and-the-london-stock-exchange-18801910/2401635333AE75C533774C57CFD77226) 
++ [Sturla L. Fjesme, Neal E. Galpin, and Lyndon Moore, “Rejected stock exchange applicants,” Journal of Financial Economics (2020), 139: 2, 502–521.](https://www.sciencedirect.com/science/article/pii/S0304405X20302336) 
+
+
+
+
+## Slides
+
+

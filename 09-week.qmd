@@ -1,5 +1,14 @@
 # The standard of living debate
 
+The processes of industrial change we have been studying tell us about
+changes in the way the economy worked, and in the sectoral composition of 
+the economy, but they do not tell us about how the people who lived 
+through these changes fared. The impact of the industrial revolution on
+the average British worker came to be known as the 'standard of living 
+debate' which divided scholars over the degree to which the industrial
+improvements in productivity translated into improvements in welfare,
+or if the social ills of industrialization outweighed the benefits.
+
 ## Core
 
 + [Feinstein, C. (1998). Pessimism Perpetuated: Real Wages and the Standard of Living in Britain during and after the Industrial Revolution. *The Journal of Economic History*, 58(3), 625-658.]( https://doi.org/10.1017/S0022050700021100)

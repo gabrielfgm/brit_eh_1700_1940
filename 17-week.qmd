@@ -1,0 +1,32 @@
+# The functioning of the international gold standard to 1914
+
+This week, we lay the groundwork to understanding the economic dislocations
+that emerged in the interwar period. To do so, we need to try to understand
+the international gold standard and its relationship to capital mobility and
+domestic policy-making. This is often referred to as the monetary policy
+'trilemma' and we will dedicate some time to trying to understand the trade-offs
+identified by economists and assessing their validity.
+
+## Core
+
++ Martin Daunton, "Presidential Address: Britain and Globalization since 1850: I. Creating a Global Order, 1850-1914", *Transactions of the Royal Historical Society*, Vol. 16, 2006.
++ Obstfeld, M., J. C. Shambaugh, A. M. Taylor (2005): The Trilemma in History: Tradeoffs among Exchange Rates, Monetary Policies, and Capital Mobility, in: The Review of Economics and Statistics, 87, 3, pp. 423-438
++ [Barry Eichengreen, Chapter 2 "The Gold Standard" *Globalizing Capital: A History of the International Monetary System*, PUP: 2008.](https://ebookcentral.proquest.com/lib/kcl/reader.action?docID=483542&ppg=14)
++ [Flandreau (1996) "The French crime of 1873: An essay on the emergence of the international gold standard, 1870–1880" The Journal of Economic History](https://www.cambridge.org/core/product/identifier/S0022050700017502/type/journal_article)
+
+## Additional
+
++ [Marc Flandreau, ‘Central Bank Cooperation in Historical Perspective: a Sceptical View’, *The Economic History Review*, 2nd ser., 50:4 (November 1997), 735-63.](
+  https://www.jstor.org/stable/2599884)
++ Bordo, M. (1981), “The classical gold standard: some lessons for today”, Federal Reserve Bank of St. Louis Review, May 1981, pp. 2-17.
++ Meissner (2005) "A new world order: explaining the international diffusion of the gold standard, 1870–1913" Journal of International Economics
++ Lopez-Cordova and Meissner (2003) "Exchange-Rate Regimes and International Trade: Evidence from the Classical Gold Standard Era" American Economic Review
++ Hume, D. (1752), “On the balance of trade”
++ Marc Flandreau, Juan Flores, Clemens Jobst, and David Koudour-Casteras, ‘Business Cycles, 1870 - 1914’, pp. 84-108. in Broadberry and O'Rourke (eds) *The Cambridge Economic History of Modern Europe*, Vol. 2.
++ [Redish, A. (1990). The Evolution of the Gold Standard in England. The Journal of Economic History, 50(4), 789-805.](https://doi:10.1017/S0022050700037827)
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/globcap-slides/04-lecture.html#1). Press `f` to view in full screen and arrows to navigate.
+
+

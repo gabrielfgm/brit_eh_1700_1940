@@ -1,0 +1,33 @@
+# The Poor Law and Social Assistance
+
+Our engagement last week with the question of individual welfare did 
+not engage deeply with the role of the state in welfare provision. This
+week, we turn to an examination of the role of the British state in 
+supporting the poor, and how that role changed across the 19th century.
+
+## Core 
+
++ [M. Blaug "The Myth of the Old Poor Law and the Making of the New." *The Journal of Economic History* 23, no. 2 (1963): 151-84.](http://www.jstor.org/stable/2116435)
++ [P. Solar, "Poor relief and English economic development before-the industrial revolution", *Economic History Review*, 48, 1, 1995](https://doi.org/10.1111/j.1468-0289.1995.tb01406.x)
++ [D. Green, G. Mesevage, G. Mooney, S. Szreter, "The new poor law and the health of the population of England and Wales", *Economic History Review*](https://doi.org/10.1111/ehr.70035)
+
+## Additional 
+
++ [M. Blaug, "The Poor Law Report Reexamined." *The Journal of Economic History* 24, no. 2 (1964): 229-45.](http://www.jstor.org/stable/2115861)
++ A Kidd, State, society and the poor in nineteenth-century England (Macmillan, 1999), ch 2
++ George R. Boyer, *An Economic History of the English Poor Law, 1750-1850*, CUP: 1990, Chapters 2 and 3.
++ [D. McCloskey, "New perspectives on the old poor law", *Explorations in Economic History*, Vol. 10, No. 4, 1973.](https://doi.org/10.1016/0014-4983(73)90025-9)
++ [George Boyer, *The Winding Road to the Welfare State: Economic Insecurity and Social Welfare Policy in Britain*, PUP: 2019, chapters 3 & 6.](https://ebookcentral.proquest.com/lib/kcl/detail.action?docID=5528405)
++ [Huberman, Michael, and Christopher M. Meissner. “Riding the Wave of Trade: The Rise of Labor Regulation in the Golden Age of Globalization.” *Journal of Economic History* 70, no. 3 (2010): 657–85.](https://www.jstor.org/stable/40836583 ){target="_blank"}
++ [Boyer, G. (2004). Living standards, 1860–1939. In R. Floud & P. Johnson (Eds.), The Cambridge Economic History of Modern Britain (pp. 280-313). Cambridge: Cambridge University Press.](https://doi.org/10.1017/CHOL9780521820370.012){target="_blank"}
++ [Hatton, T. (2004). Unemployment and the labour market, 1870–1939. In R. Floud & P. Johnson (Eds.), The Cambridge Economic History of Modern Britain (pp. 344-373). Cambridge: Cambridge University Press.]( https://doi.org/10.1017/CHOL9780521820370.014) {target="_blank"}
++ Huberman, Michael. *Odd Couple: International Trade and Labor Standards in History.* New Haven, CT: Yale University Press, 2012.
+
+
+## Slides
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/09_poor_law#1). Press `f` to view in full screen and arrows to navigate.
+
+[Link to view slides](https://gabrielfgm.github.io/beh-slides/17_unemployment#1). Press `f` to view in full screen and arrows to navigate.
+
+

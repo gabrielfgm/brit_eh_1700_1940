@@ -1,5 +1,12 @@
 # The interwar economy
 
+Our final lecture will focus on the British economy in the interwar period.
+Britain experienced high unemployment and low growth in the interwar period,
+and experimented with various forms of cartel formation to boost corporate
+profitability, as well as some social insurance schemes to help the unemployed.
+We will evaluate what accounts for the poor performance of the British economy
+and the role of abandoning gold in helping to improve Britain's prospects.
+
 ## Core
 
 + [Eichengreen, B. (2004). The British economy between the wars. In R. Floud & P. Johnson (Eds.), The Cambridge Economic History of Modern Britain (pp. 314-343). Cambridge: Cambridge University Press.]( https://doi.org/10.1017/CHOL9780521820370.013){target="_blank"}

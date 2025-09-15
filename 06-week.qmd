@@ -1,5 +1,10 @@
 # Causes of the industrial revolution, I
 
+We begin this week to tackle the large literature on why Britain industrialized,
+or at least why Britain industrialized first. We start with Allen's theories
+about relative prices and induced technological change read alongside 
+some of his critics.
+
 ## Core
 
 + [Robert Allen, "Why the industrial revolution was British: commerce, induced invention, and the scientific revolution," *Economic History Review*, Vol. 64, No. 2, 2011.]( https://doi.org/10.1111/j.1468-0289.2010.00532.x)

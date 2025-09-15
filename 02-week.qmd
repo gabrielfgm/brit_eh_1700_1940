@@ -1,5 +1,10 @@
 # The agricultural revolution
 
+The topic this week is the increase in agricultural productivity that historians
+have called the 'agricultural revolution'. We will survey some of the
+debates around the timing and origins of this increase in productivity, and
+assess its consequences for longer-term economic growth.
+
 ## Core
 
 + [Robert C. Allen, "Introduction: Agrarian Fundamentalism and English Agricultural Development" in Allen *Enclosure and the Yeoman*, OUP: 1992](https://doi.org/10.1093/acprof:oso/9780198282969.003.0001)

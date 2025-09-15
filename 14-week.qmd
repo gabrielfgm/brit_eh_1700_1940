@@ -1,20 +1,25 @@
-# Capital exports and victorian failure
+# The debate over the export of capital 
+
+By modern standards, 19th century British savers invested an unusually large share of
+their savings abroad. This generated a fierce debate both at the time and 
+subsequently as to whether the flow of investment abroad held back the British
+economy.
 
 ## Core
 
 + [S. Pollard, ‘Capital exports 1870-1914: Harmful or Beneficial?’ E*conomic History Review,* Vol. 38, No. 4, (1985)](https://www.jstor.org/stable/2597185)
-+ [McCLOSKEY, D. N. (1970), Did Victorian Britain Fail?. *The Economic History Review*, 23: 446-459.](https://doi.org/10.1111/j.1468-0289.1970.tb01037.x)
++ [Chabot, B.R. and Kurz, C.J. (2010), "That’s Where The Money Was: Foreign Bias and English Investment Abroad, 1866–1907"*. *The Economic Journal*, 120: 1056-1079.](https://doi.org/10.1111/j.1468-0297.2009.02346.x)
 + [Edelstein, M. (2004). Foreign investment, accumulation and Empire, 1860–1914. In R. Floud & P. Johnson (Eds.), The Cambridge Economic History of Modern Britain (pp. 190-226). Cambridge: Cambridge University Press.](https://doi.org/10.1017/CHOL9780521820370.009)
 
 ## Additional
 
++ [McCLOSKEY, D. N. (1970), Did Victorian Britain Fail?. *The Economic History Review*, 23: 446-459.](https://doi.org/10.1111/j.1468-0289.1970.tb01037.x)
 + P. Temin, ‘Capital Exports 1870-1914: an Alternative Model’. *Economic History Review* (1987)
 + W.P. Kennedy, ‘Capital Markets and Industrial Structure in the Victorian Economy’, in J.J. van Helten & Y. Cassis (eds), *Capitalism in a Mature Economy* (1990)
 + D.H. Aldcroft (ed), *The Development of British Industry and Foreign Competition 1875-1914* (1968) chapter 1
 + D.H. Aldcroft & H. Richardson (eds), *The British Economy 1870-1939* (1969) Section B, ch. 1 (Richardson: ‘Retardation in Britain’s Industrial Growth 1870-1913’)
 + M. Kirby & M. Rose (eds), *Business Enterprise in Modern Britain from the Eighteenth to the Twentieth Century* (1994) ch. 8 (Westall).
 + [William N. Goetzmann, Andrey D. Ukhov, British Investment Overseas 1870–1913: A Modern Portfolio Theory Approach, *Review of Finance*, Volume 10, Issue 2, 2006, Pages 261–300](https://doi.org/10.1007/s10679-006-8278-2){target="_blank"}
-+ [Chabot, B.R. and Kurz, C.J. (2010), That’s Where The Money Was: Foreign Bias and English Investment Abroad, 1866–1907*. The Economic Journal, 120: 1056-1079.](https://doi.org/10.1111/j.1468-0297.2009.02346.x){target="_blank"}
 + [Barry Eichengreen, Chapter 2 "The Gold Standard" *Globalizing Capital: A History of the International Monetary System*, PUP: 2008.](https://ebookcentral.proquest.com/lib/kcl/reader.action?docID=483542&ppg=14){target="_blank"}
 + A.R. Hall (ed), *The Export of Capital from Britain 1870-1914* (1968) chs. 1 and 4
 + R.C. Michie, ‘The Stock Exchange and the British economy 1870-1939’ in J.J. van Helten & Y. Cassis (eds), *Capitalism in a Mature Economy* (1990)

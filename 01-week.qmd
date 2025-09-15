@@ -1,5 +1,12 @@
 # Introduction: key themes and an overview
 
+The lecture this week will introduce the course and administrative details. It
+will then discuss a little how economists observe and measure the economy, 
+the usefullness of these measurements in historical perspective, and some
+broad overview of the growth of the British economy and population over the
+period this course covers. Finally we will talk a little about productivity
+growth, what it is, and why it is important.
+
 ## Core
 
 + [Stephen Broadberry, Bruce M. S. Campbell, Alexander Klein, Mark Overton and Bas van Leeuwen, "Prologue: Historical national income accounting", *British Economic Growth, 1270-1870*, CUP: 2015.](https://github.com/gabrielfgm/brit_eh_1700_1940/blob/master/pdfs/broadberry_Prologue_British_Economic_Growth.pdf)

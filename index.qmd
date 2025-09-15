@@ -1,16 +1,9 @@
 ---
-title: "British Economic History Syllabus"
-author: "Dr. Gabriel Geisler Mesevage"
-date: "Last update: `r format(Sys.time(), '%d %B, %Y')`"
-documentclass: book
 output_dir: "docs"
-output:
-  bookdown::gitbook: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-library(bookdown)
 ```
 
 # Class Description {-}
@@ -53,14 +46,9 @@ will cover with extensive and recent bibliographies.
 
 ## Assessment
 
-The course is assessed with 4 assignments:
+The course is assessed with 2 assignments:
 
-+ An in-class presentation (10%)
-+ Two (2) 2,000 word essays (15% each, 30% total)
-+ A written exam (60%)
++ An in-class group presentation (25%)
++ An in-person handwritten exam (75%)
 
-Please start your essays with enough time to do well on them. I am happy to discuss 
-essay outlines with any student who would like to do so. Essays
-should be properly cited, and all submissions are checked for
-plagiarism.
 

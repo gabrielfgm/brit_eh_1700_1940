@@ -1,0 +1,37 @@
+project:
+  type: book
+
+book:
+  title: "British Economic History Syllabus"
+  author: "Dr. Gabriel Geisler Mesevage"
+  date: "Last update: `r format(Sys.time(), '%d %B, %Y')`"
+  chapters:
+    - index.qmd
+    - 01-week.qmd
+    - 02-week.qmd
+    - 03-week.qmd
+    - 04-week.qmd
+    - 05-week.qmd
+    - 06-week.qmd
+    - 07-week.qmd
+    - 08-week.qmd
+    - 09-week.qmd
+    - 10-week.qmd
+    - 11-week.qmd
+    - 12-week.qmd
+    - 13-week.qmd
+    - 14-week.qmd
+    - 15-week.qmd
+    - 16-week.qmd
+    - 17-week.qmd
+    - 18-week.qmd
+    - 19-week.qmd
+    - 20-week.qmd
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+output_dir: "docs"

@@ -1,5 +1,9 @@
 # Government and the financial revolution
 
+We turn in this week to the role of institutions in economic growth. This
+is a very large and influential literature in development economics, which
+emerged largely in early work on British economic history.
+
 ## Core
 
 + [Douglass C. North and Barry R. Weingast, "Constitutions and Commitment: The Evolution of Institutions Governing Public Choice in Seventeenth-Century England," *Journal of Economic History*, Vol. 49, No. 4, 1989.](https://www.jstor.org/stable/2122739)
