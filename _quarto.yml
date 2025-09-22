@@ -5,7 +5,7 @@ project:
 book:
   title: "British Economic History Syllabus"
   author: "Dr. Gabriel Geisler Mesevage"
-  date: "Last update: `r format(Sys.time(), '%d %B, %Y')`"
+  date: last-modified
   chapters:
     - index.qmd
     - 01-week.qmd
